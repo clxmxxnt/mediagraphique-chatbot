@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": "18"
+    "node": "24.X"
   },
   "keywords": [
     "chatbot",
