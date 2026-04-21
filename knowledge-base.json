@@ -1,0 +1,195 @@
+{
+  "agence": {
+    "nom": "Médiagraphique",
+    "tagline": "La communication prolifique",
+    "description": "Agence de conseil en communication et Marketing depuis 1993. Nous accompagnons nos clients de A à Z dans leur stratégie de communication.",
+    "contact": {
+      "email": "contact@mediagraphique.com",
+      "telephone": "+33 3 80 54 02 42",
+      "adresse": "39 M Avenue du 14 Juillet, Chenôve, 21300, France",
+      "site": "https://mediagraphique.com"
+    },
+    "localisation": "Dijon, Côte-d'Or",
+    "annees_experience": 30,
+    "expertise": [
+      "Conseil en communication 360°",
+      "Stratégie marketing",
+      "Création de contenu",
+      "Formation professionnelle",
+      "Services numériques"
+    ]
+  },
+
+  "services": {
+    "description": "Services pour artisans, entrepreneurs et créateurs d'entreprise qui veulent se professionnaliser et attirer plus de clients",
+    "liste": [
+      {
+        "id": "conseil-communication",
+        "nom": "Conseil en Communication",
+        "description": "Nous élaborons avec vous une stratégie de communication complète et cohérente. De la définition de vos objectifs à la mise en place des actions, nous vous accompagnons pour que votre message résonne avec votre audience.",
+        "pour_qui": "Entrepreneurs, artisans, PME en croissance",
+        "objectifs": [
+          "Améliorer votre visibilité locale",
+          "Attirer des clients plus qualifiés",
+          "Professionnaliser votre image de marque"
+        ]
+      },
+      {
+        "id": "creation-site-web",
+        "nom": "Création de Site Web",
+        "description": "Sites web modernes, performants et adaptés à vos besoins. Que ce soit un site vitrine pour présenter vos services ou une plateforme plus complexe, nous créons des solutions digitales qui convertissent.",
+        "pour_qui": "Petites et moyennes entreprises, artisans",
+        "objectifs": [
+          "Être trouvé sur Google",
+          "Présenter vos services professionnellement",
+          "Convertir vos visiteurs en clients"
+        ]
+      },
+      {
+        "id": "design-graphique",
+        "nom": "Design & Identité Graphique",
+        "description": "Logo, charte graphique, supports de communication... Nous créons une identité visuelle cohérente et mémorable qui reflète vos valeurs.",
+        "pour_qui": "Tous types d'entreprises",
+        "objectifs": [
+          "Créer une première impression professionnelle",
+          "Renforcer la reconnaissance de votre marque",
+          "Assurer la cohérence visuelle"
+        ]
+      },
+      {
+        "id": "marketing-digital",
+        "nom": "Marketing Digital & Réseaux Sociaux",
+        "description": "Stratégies digitales adaptées: SEO, réseaux sociaux, publicités ciblées. Nous vous aidons à atteindre vos clients où ils sont.",
+        "pour_qui": "Entreprises voulant gagner en visibilité online",
+        "objectifs": [
+          "Augmenter votre présence en ligne",
+          "Engager vos clients",
+          "Générer des leads qualifiés"
+        ]
+      }
+    ]
+  },
+
+  "formations": {
+    "description": "Formations pratiques et concrètes via O-PAO - 1 à 2 jours, orientées résultats terrain",
+    "contact": "https://o-pao.fr",
+    "email": "contact@mediagraphique.com",
+    "domaines": [
+      {
+        "nom": "Communication",
+        "description": "Maîtrisez les fondamentaux et les tendances de la communication professionnelle",
+        "formations": [
+          {
+            "titre": "Fondamentaux de la Communication",
+            "description": "Stratégies et outils essentiels pour communiquer efficacement",
+            "duree": "1-2 jours"
+          }
+        ]
+      },
+      {
+        "nom": "Intelligence Artificielle",
+        "description": "Découvrez comment l'IA peut transformer votre activité et vos processus",
+        "formations": [
+          {
+            "titre": "IA pour Entrepreneurs",
+            "description": "Outils IA pratiques pour gagner du temps et automatiser votre business",
+            "duree": "1 jour"
+          }
+        ]
+      },
+      {
+        "nom": "Web & Numérique",
+        "description": "Maîtrisez les outils et stratégies web modernes",
+        "formations": [
+          {
+            "titre": "Création Web Pratique",
+            "description": "Les essentiels pour créer ou gérer un site web",
+            "duree": "2 jours"
+          }
+        ]
+      },
+      {
+        "nom": "Bureautique",
+        "description": "Perfectionnez-vous sur les outils bureautiques essentiels",
+        "formations": [
+          {
+            "titre": "Excel & Productivité",
+            "description": "Gagnez du temps avec Excel et les outils Microsoft",
+            "duree": "1-2 jours"
+          }
+        ]
+      }
+    ],
+    "public_cible": [
+      "Dirigeants et entrepreneurs",
+      "Indépendants",
+      "Responsables communication",
+      "Créateurs d'entreprises",
+      "Demandeurs d'emploi"
+    ]
+  },
+
+  "processus_contact": {
+    "etapes": [
+      "Prendre contact par email ou téléphone",
+      "Première discussion pour comprendre vos besoins",
+      "Audit ou diagnostic si nécessaire",
+      "Proposition adaptée à vos objectifs et budget",
+      "Mise en place et accompagnement"
+    ],
+    "delai_reponse": "24 à 48h en général",
+    "contact_email": "contact@mediagraphique.com",
+    "contact_telephone": "+33 3 80 54 02 42"
+  },
+
+  "faq": [
+    {
+      "question": "Vous proposez quel type de services?",
+      "reponse": "Nous sommes une agence de conseil en communication et marketing. Nous accompagnons artisans et entrepreneurs pour améliorer leur visibilité, profitabiliser leur image et attirer plus de clients. Cela inclut: conseil stratégique, création de sites web, design graphique, marketing digital et formations."
+    },
+    {
+      "question": "Pour qui travaillez-vous?",
+      "reponse": "Nous accompagnons principalement artisans, entrepreneurs, créateurs d'entreprise et PME en Côte-d'Or et alentours. Notre expertise: les clients qui veulent se professionnaliser et passer au niveau supérieur."
+    },
+    {
+      "question": "Proposez-vous des formations?",
+      "reponse": "Oui! Via notre structure O-PAO, nous proposons des formations pratiques et courtes (1-2 jours) sur: la communication, l'IA, le web et la bureautique. Pour les détails et calendrier, visitez https://o-pao.fr"
+    },
+    {
+      "question": "Combien ça coûte?",
+      "reponse": "Les tarifs varient selon vos besoins spécifiques. Nous adaptons nos solutions et nos budgets. Contactez-nous au +33 3 80 54 02 42 ou contact@mediagraphique.com pour un devis sans engagement."
+    },
+    {
+      "question": "Combien de temps pour démarrer un projet?",
+      "reponse": "Cela dépend du projet. En général: première discussion immédiate, diagnostic 3-5 jours, proposition dans la semaine, mise en œuvre la semaine suivante. On s'adapte à votre urgence."
+    },
+    {
+      "question": "Êtes-vous basés à Dijon?",
+      "reponse": "Oui, nous sommes basés à Chenôve (Dijon) depuis 1993. Nous accompagnons clients en Côte-d'Or, Bourgogne et alentours, mais pouvons travailler en télétravail sur certains projets."
+    },
+    {
+      "question": "Vous m'aider avec mon cas spécifique?",
+      "reponse": "Très probablement! Nos experts Médiagraphique adaptent leurs services à chaque situation. Décrivez-moi votre projet et je verrai comment nous pouvons vous accompagner. Sinon, nous vous recommanderons un partenaire."
+    }
+  ],
+
+  "points_forts": [
+    "30 ans d'expérience et expertise reconnue",
+    "Approche personnalisée et sur-mesure",
+    "Résultats concrets et mesurables",
+    "Accompagnement de A à Z (conseil + mise en place)",
+    "Tarifs adaptés aux petites et moyennes entreprises",
+    "Local et à l'écoute du territoire Dijon/Côte-d'Or"
+  ],
+
+  "chatbot_config": {
+    "name": "Assistant Médiagraphique",
+    "tone": "Expert-conseiller, professionnel mais accessible, avec une touche d'humanité. Utile et bienveillant.",
+    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Dijon depuis 1993. Tu aides les prospects (artisans, entrepreneurs, créateurs d'entreprise) à comprendre comment Médiagraphique peut les aider à se professionnaliser et attirer plus de clients. Tu réponds avec expertise, bienveillance et humanité. Tu poses des questions pour mieux comprendre leurs besoins. Si tu ne connais pas la réponse, tu dis 'Je ne suis pas sûr, mais je peux vous mettre en contact avec nos experts.' Ne invente jamais d'informations. Toujours bienveillant.",
+    "initial_messages": [
+      "Bonjour 👋 Je suis l'assistant Médiagraphique. Comment puis-je vous aider?",
+      "Besoin de conseil en communication? Intéressé par une formation? Je suis là pour vous aider.",
+      "Bienvenue! Je peux vous parler de nos services, formations, ou comment nous travaillons."
+    ]
+  }
+}

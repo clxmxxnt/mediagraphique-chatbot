@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x",
+      "memory": 1024,
+      "timeout": 30
+    }
+  },
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
+    "HUGGINGFACE_API_KEY": "@huggingface_api_key"
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "regions": ["cdg1"]
+}
