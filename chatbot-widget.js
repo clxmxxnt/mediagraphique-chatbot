@@ -126,17 +126,17 @@
     }
 
     .chatbot-header .close-btn {
-      background: none;
-      border: none;
-      color: #000000;  /* ✅ NOIR - visible! */
-      font-size: 24px;
-      cursor: pointer;
-      padding: 0;
-      width: 30px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      background: none !important;
+      border: none !important;
+      color: #000000 !important;
+      font-size: 24px !important;
+      cursor: pointer !important;
+      padding: 0 !important;
+      width: 30px !important;
+      height: 30px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
     }
 
     .chatbot-header .close-btn:hover {
