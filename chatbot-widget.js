@@ -133,7 +133,7 @@
     .chatbot-header .close-btn {
       background: none;
       border: none;
-      color: ${CONFIG.colors.white};
+      color: #000000;  /* ✅ NOIR - visible! */
       font-size: 24px;
       cursor: pointer;
       padding: 0;
