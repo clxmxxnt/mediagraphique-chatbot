@@ -36,7 +36,7 @@
     .mediagraphique-chatbot-container {
       position: fixed;
       bottom: 20px;
-      right: 20px;
+      right: 20px;  /* ← Distance du bord droit */
       font-family: ${CONFIG.fonts.primary};
       z-index: 9999;
       max-width: 400px;
@@ -56,7 +56,10 @@
       transition: all 0.3s ease;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: center;
+      position: absolute;  /* ✅ AJOUTE CETTE LIGNE */
+      right: 0;           /* ✅ AJOUTE CETTE LIGNE */
+      bottom: 0;          /* ✅ AJOUTE CETTE LIGNE */
     }
 
     .chatbot-toggle:hover {
