@@ -286,6 +286,43 @@
     .chatbot-messages::-webkit-scrollbar-thumb:hover {
       background: #4A9AB8;
     }
+    
+    /* Questions suggérées */
+    
+    .suggested-questions {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .suggested-btn {
+      background: ${CONFIG.colors.light_gray};
+      color: ${CONFIG.colors.dark_text};
+      border: 1px solid ${CONFIG.colors.border};
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-family: ${CONFIG.fonts.secondary};
+      font-size: 13px;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+      line-height: 1.3;
+    }
+    
+    .suggested-btn:hover {
+      background: ${CONFIG.colors.primary};
+      color: ${CONFIG.colors.white};
+      border-color: ${CONFIG.colors.primary};
+    }
+    
+    .suggested-btn:active {
+      transform: scale(0.98);
+    }
+    
+    .suggested-questions.hidden {
+      display: none;
+    }
   `;
 
   // ===== HTML =====
@@ -306,6 +343,13 @@
             <div class="message-content">
               Bonjour 👋 Je suis l'assistant Médiagraphique. Comment puis-je vous aider?
             </div>
+          </div>
+          
+          <div class="suggested-questions">
+            <button class="suggested-btn" data-question="Quels services proposez-vous exactement?">Quels services proposez-vous exactement?</button>
+            <button class="suggested-btn" data-question="Combien coûte une formation?">Combien coûte une formation?</button>
+            <button class="suggested-btn" data-question="Quelles formations proposez-vous?">Quelles formations proposez-vous?</button>
+            <button class="suggested-btn" data-question="Depuis combien de temps vous existez? Avez-vous des références?">Depuis combien de temps vous existez? Avez-vous des références?</button>
           </div>
         </div>
 
@@ -341,6 +385,8 @@
     const messagesDiv = container.querySelector('.chatbot-messages');
     const inputField = container.querySelector('.chatbot-input');
     const sendBtn = container.querySelector('.chatbot-send');
+    const suggestedQuestionsDiv = container.querySelector('.suggested-questions');
+    const suggestedBtns = container.querySelectorAll('.suggested-btn');
 
     // Événements
     toggleBtn.addEventListener('click', () => {
@@ -398,6 +444,16 @@
         e.preventDefault();
         sendMessage();
       }
+    });
+
+    // Événements des questions suggérées
+    suggestedBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const question = btn.getAttribute('data-question');
+        inputField.value = question;
+        sendMessage();
+        suggestedQuestionsDiv.classList.add('hidden');
+      });
     });
 
     // Fonctions utilitaires
