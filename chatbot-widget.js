@@ -125,7 +125,7 @@
       flex: 1;
     }
 
-    .chatbot-header .close-btn {
+    .chatbot-header .chatbot-close-btn {
       background: none !important;
       border: none !important;
       color: #000000 !important;
@@ -138,11 +138,11 @@
       align-items: center !important;
       justify-content: center !important;
     }
-
-    .chatbot-header .close-btn:hover {
-      opacity: 0.8;
-      transform: scale(1.1);
-      transition: all 0.2s ease;
+    
+    .chatbot-header .chatbot-close-btn:hover {
+      opacity: 0.8 !important;
+      transform: scale(1.1) !important;
+      transition: all 0.2s ease !important;
     }
 
     .chatbot-messages {
@@ -366,7 +366,7 @@
         <div class="chatbot-header">
           <img src="https://raw.githubusercontent.com/clxmxxnt/mediagraphique-chatbot/main/public/M mediagraphique noir.png" alt="Médiagraphique" class="chatbot-header-logo">
           <h3>Besoin d'aide ?</h3>
-          <button class="close-btn" title="Fermer">×</button>
+          <button class="chatbot-close-btn" title="Fermer">×</button>
         </div>
 
         <div class="chatbot-messages">
@@ -412,7 +412,7 @@
     // Récupérer les éléments
     const toggleBtn = container.querySelector('.chatbot-toggle');
     const window_ = container.querySelector('.chatbot-window');
-    const closeBtn = container.querySelector('.close-btn');
+    const closeBtn = container.querySelector('.chatbot-close-btn');
     const messagesDiv = container.querySelector('.chatbot-messages');
     const inputField = container.querySelector('.chatbot-input');
     const sendBtn = container.querySelector('.chatbot-send');
