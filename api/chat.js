@@ -73,7 +73,7 @@ async function chatWithGroq(userMessage) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'mixtral-8x7b-32768', // Modèle puissant et gratuit de Groq
+      model: 'llama-3.1-8b-instant', // Modèle puissant et gratuit de Groq
       messages: [
         {
           role: 'system',
