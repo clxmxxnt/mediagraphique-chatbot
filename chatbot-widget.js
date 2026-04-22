@@ -12,7 +12,7 @@
 
   // ===== CONFIGURATION =====
   const CONFIG = {
-    apiUrl: 'https://votre-api.vercel.app/api/chat', // À remplacer par votre URL Vercel
+    apiUrl: 'https://mediagraphique-chatbot.vercel.app/api/chat', // À remplacer par votre URL Vercel
     apiKey: '', // Optionnel si vous sécurisez l'API
     colors: {
       primary: '#55BFCE', // Turquoise Médiagraphique
