@@ -38,7 +38,7 @@
       bottom: 20px;
       right: 20px;  /* ← Distance du bord droit */
       font-family: ${CONFIG.fonts.primary};
-      z-index: 9999;
+      z-index: 999999999;
       max-width: 400px;
       width: calc(100vw - 40px);
     }
