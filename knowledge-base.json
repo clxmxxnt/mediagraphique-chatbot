@@ -2,194 +2,903 @@
   "agence": {
     "nom": "Médiagraphique",
     "tagline": "La communication prolifique",
-    "description": "Agence de conseil en communication et Marketing depuis 1993. Nous accompagnons nos clients de A à Z dans leur stratégie de communication.",
+    "description": "Agence de conseil en communication et Marketing fondée en 1992 par Pascal Lafont, graphiste plasticien de formation. Depuis plus de 30 ans, nous accompagnons de A à Z artisans, entrepreneurs et PME en Côte-d'Or dans leur stratégie de communication globale. Notre approche : une communication cohérente, complète et sur-mesure — bien au-delà de la simple création de site ou de logo.",
+    "statut_juridique": "SARL",
+    "numero_formation": "26210165421",
+    "organisme_tutelle": "DREETS Bourgogne Franche-Comté",
+    "fondateur": {
+      "nom": "Pascal Lafont",
+      "titre": "Fondateur, Directeur et Responsable formation",
+      "formation": "Graphiste plasticien de formation",
+      "role": "Expert en communication, stratégie de marque et formation professionnelle"
+    },
     "contact": {
       "email": "contact@mediagraphique.com",
-      "telephone": "+33 3 80 54 02 42",
-      "adresse": "39 M Avenue du 14 Juillet, Chenôve, 21300, France",
-      "site": "https://mediagraphique.com"
+      "telephone": "03 80 54 02 42",
+      "telephone_international": "+33 3 80 54 02 42",
+      "adresse": "39 Avenue du 14 Juillet, 21300 Chenôve (Dijon)",
+      "site": "https://mediagraphique.com",
+      "site_formation": "https://o-pao.fr",
+      "linkedin": "https://fr.linkedin.com/company/mediagraphique"
     },
-    "localisation": "Dijon, Côte-d'Or",
-    "annees_experience": 30,
-    "expertise": [
-      "Conseil en communication 360°",
-      "Stratégie marketing",
-      "Création de contenu",
-      "Formation professionnelle",
-      "Services numériques"
+    "localisation": {
+      "ville": "Chenôve – Dijon",
+      "departement": "Côte-d'Or (21)",
+      "region": "Bourgogne-Franche-Comté",
+      "zone_intervention": "Dijon, Côte-d'Or, Bourgogne et alentours. Certains projets (web, stratégie, formations à distance) peuvent être réalisés partout en France."
+    },
+    "chiffres_cles": {
+      "annee_creation": 1992,
+      "annees_experience": "Plus de 30 ans",
+      "note_google": "5/5",
+      "positionnement": "Agence conseil globale — pas seulement prestataire technique"
+    },
+    "valeurs": [
+      "Expertise et créativité au service des TPE/PME",
+      "Accompagnement de A à Z — conseil + mise en place",
+      "Proximité et écoute du territoire local",
+      "Solutions sur-mesure adaptées au budget",
+      "Approche globale et cohérente de la communication",
+      "Résultats concrets et mesurables",
+      "Pédagogie bienveillante et formations pratiques orientées terrain"
+    ],
+    "equipe": {
+      "description": "Une équipe multidisciplinaire et passionnée de graphistes, développeurs, stratèges, consultants et formateurs qui partagent la même vision : un service à la hauteur des attentes clients.",
+      "profils": [
+        "Graphistes et designers",
+        "Développeurs web (WordPress, WooCommerce, Divi)",
+        "Consultants en stratégie de communication",
+        "Experts en marketing digital et SEO",
+        "Formateurs certifiés (PAO, Web, IA, Bureautique)"
+      ]
+    },
+    "points_forts": [
+      "Plus de 30 ans d'expérience et d'expertise reconnue sur le territoire dijonnais",
+      "Approche 360° : stratégie, création, web, print, formation — tout sous un même toit",
+      "Accompagnement de A à Z : on ne livre pas juste un logo ou un site, on accompagne la stratégie globale",
+      "Tarifs adaptés aux artisans, indépendants et PME",
+      "Ancrage local fort : basés à Chenôve depuis 1992, bien intégrés dans le tissu économique local",
+      "Réactivité : réponse sous 24 à 48h, délais de mise en œuvre rapides",
+      "Double expertise : agence de communication ET organisme de formation (O-PAO)",
+      "Note 5/5 sur Google — satisfaction client maximale",
+      "Organisme de formation enregistré (n° 26210165421), certifié Qualiopi et habilité ICDL"
+    ],
+    "temoignages": [
+      {
+        "auteur": "Client fidèle",
+        "texte": "Pascal Lafont et son équipe ont assuré un accompagnement complet, du naming et création du logo à la charte graphique, la création du roll-up, des cartes de visite et du site web.",
+        "appreciation": "Écoute, proximité, qualité des conseils et des formations, réactivité"
+      }
+    ],
+    "exemples_clients": [
+      "TDC Tools — refonte site e-commerce industriel, stratégie SEO, formation marketing (OPCO AKTO)",
+      "Movmedix — conception de maquette UX/UI sur Adobe XD, développement site",
+      "SAS HOP Conciergerie — stratégie de communication, création site vitrine avec réservation",
+      "TPE et PME de Côte-d'Or dans les secteurs artisanat, services, commerce, professions libérales"
     ]
   },
 
   "services": {
-    "description": "Services pour artisans, entrepreneurs et créateurs d'entreprise qui veulent se professionnaliser et attirer plus de clients",
-    "liste": [
-      {
-        "id": "conseil-communication",
-        "nom": "Conseil en Communication",
-        "description": "Nous élaborons avec vous une stratégie de communication complète et cohérente. De la définition de vos objectifs à la mise en place des actions, nous vous accompagnons pour que votre message résonne avec votre audience.",
-        "pour_qui": "Entrepreneurs, artisans, PME en croissance",
-        "objectifs": [
-          "Améliorer votre visibilité locale",
-          "Attirer des clients plus qualifiés",
-          "Professionnaliser votre image de marque"
-        ]
-      },
-      {
-        "id": "creation-site-web",
-        "nom": "Création de Site Web",
-        "description": "Sites web modernes, performants et adaptés à vos besoins. Que ce soit un site vitrine pour présenter vos services ou une plateforme plus complexe, nous créons des solutions digitales qui convertissent.",
-        "pour_qui": "Petites et moyennes entreprises, artisans",
-        "objectifs": [
-          "Être trouvé sur Google",
-          "Présenter vos services professionnellement",
-          "Convertir vos visiteurs en clients"
-        ]
-      },
-      {
-        "id": "design-graphique",
-        "nom": "Design & Identité Graphique",
-        "description": "Logo, charte graphique, supports de communication... Nous créons une identité visuelle cohérente et mémorable qui reflète vos valeurs.",
-        "pour_qui": "Tous types d'entreprises",
-        "objectifs": [
-          "Créer une première impression professionnelle",
-          "Renforcer la reconnaissance de votre marque",
-          "Assurer la cohérence visuelle"
-        ]
-      },
-      {
-        "id": "marketing-digital",
-        "nom": "Marketing Digital & Réseaux Sociaux",
-        "description": "Stratégies digitales adaptées: SEO, réseaux sociaux, publicités ciblées. Nous vous aidons à atteindre vos clients où ils sont.",
-        "pour_qui": "Entreprises voulant gagner en visibilité online",
-        "objectifs": [
-          "Augmenter votre présence en ligne",
-          "Engager vos clients",
-          "Générer des leads qualifiés"
-        ]
-      }
-    ]
+    "introduction": "Médiagraphique propose une communication globale et cohérente. Contrairement à d'autres prestataires, nous ne créons pas juste un site ou un logo : nous pensons l'ensemble de votre communication de façon stratégique et cohérente, pour que chaque support renforce votre image et serve vos objectifs commerciaux.",
+    "philosophie": "On ne crée pas juste des sites ou des logos. On vous accompagne dans l'ensemble de votre communication pour que tout soit cohérent et efficace. Chaque action doit contribuer à un objectif business clair.",
+    "public_cible": "Artisans, entrepreneurs, créateurs d'entreprise, TPE et PME souhaitant se professionnaliser, gagner en visibilité et attirer plus de clients qualifiés.",
+
+    "strategie_communication": {
+      "nom": "Stratégie de Communication",
+      "description": "Nous élaborons avec vous une stratégie de communication complète, cohérente et adaptée à vos objectifs. De la définition de votre positionnement à la mise en place d'un plan d'action concret.",
+      "sous_services": [
+        {
+          "nom": "Identité Visuelle & Branding",
+          "description": "Création de votre identité de marque complète : logo, charte graphique, naming, brand strategy. Nous construisons une image forte, mémorable et cohérente qui vous distingue de vos concurrents et inspire confiance à vos prospects. Une identité visuelle bien construite est le socle de toute votre communication.",
+          "inclut": ["Logo et déclinaisons", "Charte graphique complète", "Naming (création du nom de marque)", "Brand strategy et positionnement", "Guide d'utilisation de la charte"],
+          "pour_qui": "Créateurs d'entreprise, entreprises en rebranding, artisans souhaitant se professionnaliser"
+        },
+        {
+          "nom": "Branding & Stratégie de Marque",
+          "description": "Au-delà du logo, nous travaillons votre stratégie de marque en profondeur : qui êtes-vous, à qui vous parlez, quelle promesse vous faites, comment vous vous différenciez. Le branding, c'est l'âme de votre entreprise.",
+          "inclut": ["Audit de marque", "Définition du positionnement", "Plateforme de marque", "Storytelling de marque", "Déclinaison sur tous supports"]
+        },
+        {
+          "nom": "Plan de Communication",
+          "description": "Définition d'un plan de communication structuré sur l'année : quels messages, pour qui, sur quels canaux, à quelle fréquence et avec quel budget. On pense global pour que tous vos supports parlent d'une seule voix et que votre investissement soit optimisé.",
+          "inclut": ["Audit de l'existant", "Définition des objectifs et KPIs", "Identification des cibles et personas", "Plan d'actions détaillé", "Calendrier éditorial annuel", "Suivi et ajustements"]
+        },
+        {
+          "nom": "Veille Concurrentielle",
+          "description": "Analyse approfondie de votre environnement concurrentiel pour mieux vous positionner et saisir les opportunités du marché. On surveille ce que font vos concurrents (identité visuelle, messages, canaux, prix) pour que vous ayez toujours un temps d'avance et puissiez vous différencier intelligemment.",
+          "inclut": ["Identification des concurrents directs et indirects", "Analyse de leur positionnement", "Analyse de leur communication", "Recommandations stratégiques"]
+        }
+      ]
+    },
+
+    "strategie_web": {
+      "nom": "Stratégie Web & Numérique",
+      "description": "Votre présence en ligne est votre vitrine 24h/24. Nous créons des solutions web modernes, performantes et optimisées pour convertir vos visiteurs en clients. On pense UX (expérience utilisateur), SEO et conversion dès le départ.",
+      "sous_services": [
+        {
+          "nom": "Création de Site Internet",
+          "description": "Sites web modernes, responsives (adaptés mobile) et performants, conçus pour vos besoins spécifiques. On pense expérience utilisateur pour que votre site séduise ET convertisse vos visiteurs en clients.",
+          "types": ["Site vitrine", "Site e-commerce (WooCommerce)", "Site catalogue avec devis en ligne", "Landing page"],
+          "technologies": ["WordPress", "Divi Builder", "WooCommerce", "Adobe XD (maquettage)"],
+          "inclut": ["Webdesign sur-mesure", "Développement et intégration", "Expérience Utilisateur (UX)", "Hébergement", "Maintenance annuelle"],
+          "tarifs_indicatifs": {
+            "hebergement": "393€/an",
+            "maintenance_forfait": "385€/an",
+            "woocommerce": "2220€ + 160€/an",
+            "note": "Ces tarifs sont indicatifs — chaque projet est devisé sur-mesure"
+          }
+        },
+        {
+          "nom": "Référencement SEO",
+          "description": "Être trouvé sur Google par vos clients locaux, c'est indispensable. Nous optimisons votre référencement naturel (SEO) pour que vous apparaissiez sur les bonnes requêtes au bon moment, notamment pour les recherches locales Dijon/Côte-d'Or.",
+          "inclut": ["Audit SEO complet", "Optimisation technique on-page", "Stratégie de contenu et mots-clés", "Création de pages optimisées par thématique", "Référencement local Google My Business", "Suivi des positions"]
+        },
+        {
+          "nom": "Motion Design & Animations Web",
+          "description": "Vidéos et animations créatives qui donnent vie à votre marque. Nous utilisons vos éléments graphiques et votre charte pour créer des contenus vidéo percutants qui captivent votre audience sur le web et les réseaux sociaux.",
+          "inclut": ["Animations web et interfaces", "Vidéos explicatives (explainer videos)", "Contenu vidéo pour réseaux sociaux", "Motion design et animation logo", "Supports pour événements"]
+        },
+        {
+          "nom": "Community Management & Réseaux Sociaux",
+          "description": "Stratégie et gestion de vos réseaux sociaux pour créer une communauté engagée autour de votre marque. Nous définissons votre ligne éditoriale, choisissons les bons réseaux selon votre cible, et produisons du contenu régulier et cohérent.",
+          "inclut": ["Audit des réseaux existants", "Stratégie et choix des plateformes", "Création de contenu (textes, visuels)", "Planning éditorial mensuel", "Animation de communauté", "Publicités ciblées (social ads)", "Reporting mensuel"],
+          "reseaux": ["LinkedIn", "Instagram", "Facebook", "TikTok selon cible"]
+        },
+        {
+          "nom": "Nom de Domaine & Hébergement",
+          "description": "Nous gérons aussi les aspects techniques de votre présence web : achat et gestion du nom de domaine, hébergement sécurisé, emails professionnels, Google My Business.",
+          "inclut": ["Achat nom de domaine", "Hébergement web", "Emails professionnels", "Google My Business", "Certificat SSL"]
+        }
+      ]
+    },
+
+    "supports_communication": {
+      "nom": "Supports de Communication",
+      "description": "Du print au digital, nous créons tous vos supports de communication pour que votre image soit cohérente sur tous les canaux et que chaque point de contact avec vos clients renforce votre professionnalisme.",
+      "sous_services": [
+        {
+          "nom": "Supports Print",
+          "description": "Création et production de tous vos supports imprimés : professionnels, qualitatifs et parfaitement dans votre charte graphique. Du concept à la livraison, on gère tout.",
+          "exemples": [
+            "Cartes de visite (y compris QR code)",
+            "Flyers et dépliants",
+            "Brochures commerciales",
+            "Catalogues produits",
+            "Plaquettes institutionnelles",
+            "Affiches et kakémonos",
+            "Journaux d'entreprise",
+            "Livrets et guides"
+          ]
+        },
+        {
+          "nom": "Signalétique & PLV",
+          "description": "Supports de communication physiques pour votre point de vente, vos événements, vos locaux ou vos véhicules. On conçoit et on produit des supports qui attirent l'œil et renforcent votre image sur le terrain.",
+          "exemples": [
+            "Roll-ups et totems",
+            "Stands événementiels sur-mesure",
+            "Bâches et banderoles",
+            "Marquage et covering véhicule",
+            "PLV (Publicité sur le Lieu de Vente)",
+            "Signalétique extérieure et intérieure",
+            "Vitrophanie (stickers vitrine)"
+          ]
+        }
+      ]
+    },
+
+    "decoration_entreprise": {
+      "nom": "Décoration d'Intérieur pour Entreprises",
+      "description": "Votre espace de travail est aussi un outil de communication. Nous créons des aménagements visuels qui reflètent votre identité de marque dans vos locaux, pour accueillir vos clients et motiver vos équipes dans un environnement à votre image.",
+      "exemples": [
+        "Décoration hall d'accueil",
+        "Aménagement visuel des bureaux",
+        "Signalétique intérieure directionnelle",
+        "Frises murales et impressions grand format",
+        "Mise en valeur de l'espace de travail",
+        "Affichage institutionnel"
+      ]
+    },
+
+    "accompagnement_commercial": {
+      "nom": "Accompagnement Stratégie Marketing & Commerciale",
+      "description": "Au-delà de la communication, nous aidons nos clients à structurer leur stratégie marketing et commerciale : analyse de l'environnement, définition de la proposition de valeur, plan marketing, intégration du digital et de l'omnicanal, développement de la marque, pilotage de la performance.",
+      "objectifs": [
+        "Analyser l'environnement et la cible",
+        "Structurer la communication en ligne",
+        "Définir la proposition de valeur",
+        "Structurer le plan marketing",
+        "Intégrer le digital et l'omnicanal",
+        "Développer la marque et le branding",
+        "Piloter la performance",
+        "Innover et s'adapter"
+      ],
+      "exemples_missions": [
+        "Stratégie marketing et commerciale (formation/accompagnement 5 jours — 35h)",
+        "Stratégie e-commerce et référencement pour entreprises industrielles",
+        "Campagnes e-mailing et prospection LinkedIn"
+      ]
+    }
   },
 
   "formations": {
-    "description": "Formations pratiques et concrètes via O-PAO - 1 à 2 jours, orientées résultats terrain",
-    "contact": "https://o-pao.fr",
-    "email": "contact@mediagraphique.com",
-    "domaines": [
-      {
-        "nom": "Communication",
-        "description": "Maîtrisez les fondamentaux et les tendances de la communication professionnelle",
+    "introduction": "Via notre structure O-PAO, nous proposons des formations professionnelles pratiques et concrètes sur les outils de communication, le web et l'IA. Courtes (1 à 3 jours en général), orientées résultats terrain, adaptées aux professionnels qui veulent monter en compétence rapidement sans perdre de temps.",
+    "organisme": {
+      "nom": "O-PAO",
+      "nom_complet": "O-PAO – Formations PAO et Web à Dijon",
+      "organisme_rattache": "Médiagraphique (SARL)",
+      "numero_declaration": "26210165421",
+      "site": "https://o-pao.fr",
+      "email": "contact@o-pao.fr",
+      "certifications": [
+        "Qualiopi (certification qualité nationale, ouvre l'accès aux financements publics)",
+        "Habilité ICDL (certification internationale bureautique)"
+      ],
+      "partenaires": ["Gessica Center Dijon (lieu de formation inter)"],
+      "description": "Centre de formation dédié aux professionnels de la communication visuelle et du numérique. Sessions personnalisées en présentiel ou à distance, dispensées par des professionnels en activité.",
+      "responsable_formation": "Pascal Lafont"
+    },
+
+    "catalogue": {
+
+      "pao_print": {
+        "nom": "Formations PAO & Création Graphique",
+        "description": "Maîtrisez les logiciels professionnels de la Suite Adobe et les outils de création graphique pour produire vos supports de communication en totale autonomie.",
         "formations": [
           {
-            "titre": "Fondamentaux de la Communication",
-            "description": "Stratégies et outils essentiels pour communiquer efficacement",
-            "duree": "1-2 jours"
+            "titre": "Adobe InDesign",
+            "description": "Le logiciel de mise en page par excellence. Devenez autonome sur InDesign pour produire des documents professionnels de qualité : brochures, catalogues, plaquettes, journaux d'entreprise, livrets.",
+            "objectifs": [
+              "Maîtriser l'interface et l'environnement InDesign",
+              "Créer des mises en page professionnelles multi-pages",
+              "Gérer styles de caractères, styles de paragraphes et gabarits",
+              "Insérer et gérer textes, images et graphiques",
+              "Préparer des fichiers pour l'impression (PDF export)"
+            ],
+            "niveau": "Débutant à confirmé",
+            "modalite": "Présentiel ou distanciel",
+            "lien": "https://o-pao.fr/adobe-indesign/",
+            "certification": "ICDL possible"
+          },
+          {
+            "titre": "Adobe Illustrator",
+            "description": "Le logiciel de création vectorielle de référence. Créez logos, pictogrammes, icônes, illustrations et tout support nécessitant du graphisme vectoriel haute qualité.",
+            "objectifs": [
+              "Maîtriser les principales fonctions de création vectorielle",
+              "Créer des logos, illustrations et icônes professionnels",
+              "Comprendre la gestion des couleurs (RVB/CMJN)",
+              "Créer des motifs et éléments répétitifs",
+              "Préparer des fichiers pour impression et web"
+            ],
+            "niveau": "Débutant à confirmé",
+            "modalite": "Présentiel ou distanciel",
+            "lien": "https://o-pao.fr/adobe-illustrator/",
+            "programme_pdf": "https://o-pao.fr/wp-content/uploads/2025/01/2025-Programme-Adobe-Illustrator.pdf"
+          },
+          {
+            "titre": "Adobe Photoshop",
+            "description": "La référence du traitement d'images numériques. Retouche photo, création de visuels, montage — indispensable pour tout professionnel de la communication.",
+            "objectifs": [
+              "Maîtriser l'interface et les outils essentiels",
+              "Retouche et traitement d'images professionnelles",
+              "Travail sur les sélections, calques et masques",
+              "Création de montages et compositions créatives",
+              "Export pour le web et l'impression"
+            ],
+            "niveau": "Débutant à confirmé",
+            "modalite": "Présentiel ou distanciel",
+            "lien": "https://o-pao.fr/adobe-photoshop/"
+          },
+          {
+            "titre": "Canva Pro",
+            "description": "L'outil de création graphique accessible à tous, même sans formation graphique. Parfait pour créer rapidement des visuels professionnels pour les réseaux sociaux, présentations et supports marketing.",
+            "objectifs": [
+              "Maîtriser l'interface et les fonctionnalités Canva Pro",
+              "Créer des templates réutilisables à votre charte graphique",
+              "Produire des visuels cohérents pour tous vos canaux",
+              "Utiliser les fonctionnalités IA intégrées à Canva"
+            ],
+            "niveau": "Tous niveaux",
+            "modalite": "Présentiel ou distanciel"
+          },
+          {
+            "titre": "La Prépresse",
+            "description": "Atelier dédié aux fondamentaux de la prépresse : préparer correctement ses fichiers pour l'impression professionnelle et éviter les erreurs coûteuses (couleurs décalées, images pixelisées, fond perdu manquant…).",
+            "objectifs": [
+              "Comprendre les contraintes techniques de l'impression",
+              "Maîtriser les modes colorimétriques (RVB vs CMJN)",
+              "Gérer la résolution et le fond perdu",
+              "Préparer et exporter des fichiers conformes aux imprimeurs"
+            ],
+            "lien": "https://o-pao.fr/la-prepresse/"
           }
         ]
       },
-      {
-        "nom": "Intelligence Artificielle",
-        "description": "Découvrez comment l'IA peut transformer votre activité et vos processus",
+
+      "ia": {
+        "nom": "Formations Intelligence Artificielle",
+        "description": "L'IA est une révolution pour les professionnels. Nos formations sont pratiques, ancrées dans la réalité des métiers, et permettent d'intégrer concrètement les outils d'IA dans le quotidien professionnel dès le lendemain de la formation.",
         "formations": [
           {
-            "titre": "IA pour Entrepreneurs",
-            "description": "Outils IA pratiques pour gagner du temps et automatiser votre business",
-            "duree": "1 jour"
+            "titre": "Formation IA Fondamentaux (2 jours — 14h)",
+            "reference": "Formation O-PAO standard",
+            "description": "Formation complète aux fondamentaux de l'IA générative et agentique. 4 grands chapitres structurés pour passer de zéro à opérationnel avec les outils IA du marché.",
+            "duree": "14 heures — 2 jours",
+            "public": "Tous professionnels souhaitant intégrer l'IA dans leur activité",
+            "prerequis": "À l'aise avec les outils numériques de base",
+            "programme": {
+              "chapitre_1": {
+                "titre": "Introduction à l'IA (~4h)",
+                "contenu": [
+                  "Histoire de l'IA (Alan Turing, machine learning, deep learning, ChatGPT)",
+                  "Ce qu'est et n'est pas l'IA générative (LLMs, hallucinations, biais)",
+                  "Typologies d'IA : générative (texte, image, vidéo, audio, code) et agentique",
+                  "Les grands modèles : ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Copilot (Microsoft)",
+                  "Les abonnements et tokens : fonctionnement, coûts, comparatifs",
+                  "Cadre juridique : RGPD, IA Act européen, propriété intellectuelle, éthique"
+                ]
+              },
+              "chapitre_2": {
+                "titre": "L'utilisation de l'IA (~4h)",
+                "contenu": [
+                  "Personnalisation du profil : à propos, instructions, mémoire, applications connectées",
+                  "Structure d'un prompt efficace : rôle, objectif, contexte, format, contraintes",
+                  "Erreurs fréquentes : prompts vagues, absence de contexte, manque d'itération",
+                  "Techniques avancées : prompt en cascade, itératif, few-shot, Arbre de Pensée, questions miroir",
+                  "Prompt clavier vs prompt vocal"
+                ]
+              },
+              "chapitre_3": {
+                "titre": "La génération de contenu (~3h)",
+                "contenu": [
+                  "Génération de textes : posts réseaux sociaux, emails, articles, fiches produits, newsletters",
+                  "Génération d'images : Midjourney, Adobe Firefly, Canva IA — structure d'un prompt image",
+                  "Génération vidéo et audio : voix off, sous-titrage, Sora, Runway, CapCut IA",
+                  "Génération de supports : présentations (Gamma), tableaux, documents, code HTML/CSS"
+                ]
+              },
+              "chapitre_4": {
+                "titre": "Création de projets & automatisation (~3h)",
+                "contenu": [
+                  "Création de Projets IA : instructions système, documents de référence, organisation par client",
+                  "Fonction Task : programmer des tâches récurrentes (veille, emails…)",
+                  "IA agentique : automatisation avec Make, Zapier, n8n",
+                  "Plan d'action individuel : 5 prompts personnalisés, 1 workflow métier, plan 30 jours"
+                ]
+              }
+            },
+            "outils_abordes": ["ChatGPT", "Claude (Anthropic)", "Gemini (Google)", "Copilot (Microsoft)", "Midjourney", "Adobe Firefly", "Canva IA", "Gamma", "Make", "Zapier", "Sora", "Runway", "CapCut IA"],
+            "modalite": "Présentiel ou distanciel",
+            "financement": "OPCO, CPF, FAF, AIF"
+          },
+          {
+            "titre": "Formation IA TPE — Améliorer l'efficacité de sa TPE (3 jours — 21h)",
+            "reference": "RS 7311 France Compétences",
+            "certification": "RS 7311 — Améliorer l'efficacité de sa TPE à l'aide de l'IA (certifiée France Compétences)",
+            "description": "Formation certifiante de 3 jours destinée aux dirigeants de TPE et leurs collaborateurs directs. Objectif : optimiser les processus, améliorer la productivité et renforcer l'efficacité de la communication de sa TPE grâce à l'IA.",
+            "duree": "21 heures — 3 jours (2 jours présentiel + 1 jour asynchrone)",
+            "public": "Dirigeants de TPE en activité ou en création, collaborateurs directs du dirigeant",
+            "prerequis": "Être à l'aise avec les outils numériques et avoir un projet d'intégration de l'IA dans sa TPE",
+            "programme": {
+              "jour_1": "Identifier les opportunités IA + génération de contenus (présentiel) : panorama outils IA, prompting, génération de textes/visuels/vidéos, supports de communication",
+              "jour_2_async": "Rédaction dossier projet avec l'IA + exercices guidés (résumé documents, veille sectorielle assistée IA)",
+              "jour_2_presentiel": "Analyse et synthèse de données + automatisation des workflows avec l'IA",
+              "evaluation": "Présentation orale devant jury professionnel (15 min) + dossier de projet + QCM"
+            },
+            "livrables_participant": ["Dossier de projet d'amélioration TPE via IA", "Rapport de veille sectorielle IA", "Tableau de bord synthétique"],
+            "modalite": "Présentiel + asynchrone",
+            "financement": "CPF (RS 7311), OPCO, FAF"
+          },
+          {
+            "titre": "Formation IA avec Certification CERTIFOPAC (3 jours — 1500€)",
+            "reference": "CERTIFOPAC / The Media Faculty — 6891",
+            "certification": "Certification CERTIFOPAC 6891 — Intégrer l'IA dans une stratégie de communication créative et performante",
+            "description": "Formation certifiante de 3 jours orientée communication créative. Positionnement unique : l'IA comme partenaire créatif — faire émerger plus d'idées, tester plus vite, oser plus fort.",
+            "duree": "3 jours",
+            "tarif": "1500€",
+            "public": "Responsables communication, directeurs marketing, créatifs, agences",
+            "programme_jour_1": [
+              "Prompt engineering : structurer un prompt avec des objectifs professionnels",
+              "Mapping outils IA : comparaison et sélection selon contexte",
+              "Enjeux éthiques et juridiques (IA Act, règlementation)",
+              "Charte d'entreprise IA et données sensibles",
+              "Identification et gestion des biais de l'IA"
+            ],
+            "programme_jour_2": [
+              "Pré-dérushage et indexation intelligente de vidéos",
+              "Automatisation des tâches techniques : transcodage, proxies, sous-titres, versions linguistiques",
+              "Synchronisation multi-caméras, génération XML/EDL",
+              "Exercice pratique sur cas d'étude"
+            ],
+            "programme_jour_3": [
+              "Contrôle qualité automatisé des livrables (formats, codecs, niveaux audio)",
+              "Détection automatique d'erreurs visuelles",
+              "Intégration de contenus générés IA (bruitages, ambiances, voix synthétiques)",
+              "Outils : ChatGPT, Adobe Premiere Pro, Adobe Sensei, Speech to text, Runway ML",
+              "Simulation complète de montage assisté par IA"
+            ],
+            "modalite": "Présentiel",
+            "financement": "CPF, OPCO"
+          },
+          {
+            "titre": "Formation IA Adobe — Firefly, Photoshop & Illustrator (2 jours — 12h)",
+            "description": "Formation dédiée aux fonctionnalités d'IA intégrées à la suite Adobe. Apprenez à générer des images, retoucher des visuels et créer des éléments graphiques avec l'IA directement dans vos outils Adobe habituels.",
+            "duree": "12 heures — 2 jours",
+            "public": "Toute personne souhaitant utiliser les nouvelles fonctionnalités IA des logiciels Adobe",
+            "prerequis": "Maîtrise basique de l'environnement Adobe (interface, outils de base)",
+            "programme": {
+              "jour_1": [
+                "Comprendre l'IA générative et son vocabulaire (génération, prompt, inpainting, outpainting, variations)",
+                "Adobe Firefly : Text to Image, Generative Fill, Generative Expand, Style Reference, Structure Reference, Generate Similar",
+                "Adobe Photoshop IA : Generative Fill, Generative Expand, Generate Background, Remove Tool, Select Subject/Object",
+                "Montage et cohérence visuelle avec l'IA"
+              ],
+              "jour_2": [
+                "Adobe Illustrator IA : Text to Vector Graphic, Generative Recolor, Text to Pattern, Retype/Match Font",
+                "Workflow combinant plusieurs IA (Firefly → Photoshop → Illustrator)",
+                "Prompt engineering avancé pour la génération d'images"
+              ]
+            },
+            "outils": ["Adobe Firefly", "Adobe Photoshop (fonctions IA)", "Adobe Illustrator (fonctions IA)"],
+            "livrables": ["Fichiers .ai (Illustrator)", "Fichiers .psd (Photoshop)", "Visuels finalisés prêts pour communication"],
+            "modalite": "Présentiel ou distanciel",
+            "financement": "OPCO, FAF"
+          },
+          {
+            "titre": "Formation IA Généraliste Créativité Stratégique (2 jours)",
+            "description": "Formation positionnée sur l'IA comme partenaire créatif. Objectif : faire émerger plus d'idées, tester plus vite, oser plus fort. Pour les profils communication et marketing.",
+            "duree": "2 jours",
+            "positionnement": "L'IA au service de la créativité stratégique — pas juste pour la productivité",
+            "messages_cles": [
+              "Libérez votre créativité et prenez une longueur d'avance grâce à l'IA",
+              "Créez plus. Testez plus. Osez plus.",
+              "Passez de l'idée à l'impact en un temps record",
+              "Devenez une équipe créative augmentée par l'IA"
+            ],
+            "programme": {
+              "jour_1": [
+                "Comprendre l'IA générative : histoire, LLMs, hallucinations, biais",
+                "Les grandes familles : texte, image, audio, vidéo, data",
+                "Panorama outils : ChatGPT, Midjourney, Adobe Firefly",
+                "L'art du prompt : structure, erreurs fréquentes, méthodes avancées (cascade, itératif, few-shot, prompt créatif)"
+              ],
+              "jour_2": [
+                "IA textuelle : emails, articles, posts LinkedIn, scripts vidéo, plans marketing, brainstorming",
+                "Techniques avancées : hooks, adaptation de ton, argumentaire, personas, assistant métier personnalisé",
+                "IA & créativité : storytelling augmenté, slogans, concepts différenciants",
+                "IA & génération d'images : Midjourney, Adobe Firefly, moodboards, visuels réseaux sociaux",
+                "Intégrer l'IA dans son activité : workflow, templates, éthique, plan d'action 30 jours"
+              ]
+            },
+            "modalite": "Présentiel ou distanciel"
+          },
+          {
+            "titre": "Cas d'usage IA par secteur d'activité — Guide O-PAO",
+            "type": "Ressource pédagogique",
+            "description": "Guide de personnalisation des formations IA par secteur. Recense les cas d'usage IA les plus pertinents pour 10 secteurs d'activité, en croisant 3 types de formation O-PAO.",
+            "secteurs_couverts": [
+              "Administration & Secrétariat",
+              "Communication",
+              "Marketing",
+              "Logistique",
+              "Événementiel",
+              "Artisanat",
+              "Restauration & Hôtellerie",
+              "Professions libérales",
+              "Immobilier",
+              "Ressources Humaines"
+            ],
+            "types_formation_croises": ["IA Générative", "IA Agentique", "Création de contenu IA"],
+            "usage": "En début de formation, permet d'ancrer les notions dans la réalité métier de chaque apprenant via des exemples concrets de son secteur"
           }
         ]
       },
-      {
-        "nom": "Web & Numérique",
-        "description": "Maîtrisez les outils et stratégies web modernes",
+
+      "web_reseaux_sociaux": {
+        "nom": "Formations Web & Réseaux Sociaux",
+        "description": "Développez votre présence en ligne et maîtrisez les outils web essentiels pour votre activité.",
         "formations": [
           {
-            "titre": "Création Web Pratique",
-            "description": "Les essentiels pour créer ou gérer un site web",
-            "duree": "2 jours"
+            "titre": "WordPress — Créer et gérer son site web",
+            "description": "Maîtrisez le CMS le plus utilisé au monde pour créer et gérer votre site web en totale autonomie. De la création à la maintenance quotidienne, apprenez à faire vivre votre site sans dépendre d'un prestataire.",
+            "objectifs": [
+              "Créer et configurer un site WordPress de A à Z",
+              "Gérer les contenus, pages et articles",
+              "Installer, paramétrer et choisir des plugins",
+              "Comprendre la gestion des médias",
+              "Optimiser pour le SEO",
+              "Assurer la maintenance de base (mises à jour, sauvegardes)"
+            ],
+            "niveau": "Débutant à intermédiaire",
+            "cpf": true,
+            "modalite": "Présentiel ou distanciel",
+            "lien": "https://o-pao.fr/wordpress/"
+          },
+          {
+            "titre": "Adobe XD — Maquettage et prototypage web",
+            "description": "Outil de prototypage et de conception d'interfaces web et mobiles. Idéal pour les graphistes et responsables communication qui souhaitent créer des maquettes de sites avant développement.",
+            "objectifs": [
+              "Concevoir des interfaces web et mobile",
+              "Créer des prototypes interactifs cliquables",
+              "Définir l'arborescence et l'UX",
+              "Collaborer avec les équipes de développement"
+            ],
+            "exemple_client": "Maquette XD Movmedix (movmedix.com)",
+            "modalite": "Présentiel ou distanciel",
+            "lien": "https://o-pao.fr/adobe-xd/"
+          },
+          {
+            "titre": "Réseaux Sociaux — Stratégie et création de contenu",
+            "description": "Stratégie et pratique des réseaux sociaux professionnels. Comment choisir les bons réseaux selon sa cible, créer du contenu engageant et développer sa communauté de façon organique et payante.",
+            "objectifs": [
+              "Définir sa stratégie réseaux sociaux selon sa cible",
+              "Créer du contenu adapté à chaque plateforme (LinkedIn, Instagram, Facebook)",
+              "Construire un planning éditorial",
+              "Mesurer les performances (analytics)",
+              "Utiliser les outils de planification (Buffer, Hootsuite…)"
+            ],
+            "cpf": true,
+            "modalite": "Présentiel ou distanciel, sessions personnalisées"
+          },
+          {
+            "titre": "Email Marketing — Créer des campagnes qui convertissent",
+            "description": "Créer et gérer des campagnes d'emailing professionnelles. L'email reste le canal digital au meilleur ROI pour fidéliser ses clients et générer des contacts qualifiés.",
+            "objectifs": [
+              "Choisir son outil d'emailing (Mailchimp, Brevo…)",
+              "Créer des newsletters engageantes",
+              "Gérer et segmenter ses listes de diffusion",
+              "Optimiser les taux d'ouverture et de clic",
+              "Automatiser ses campagnes"
+            ]
           }
         ]
       },
-      {
-        "nom": "Bureautique",
-        "description": "Perfectionnez-vous sur les outils bureautiques essentiels",
+
+      "bureautique": {
+        "nom": "Formations Bureautique & Outils Collaboratifs",
+        "description": "Maîtrisez les outils bureautiques et collaboratifs essentiels pour optimiser votre efficacité quotidienne et gagner en autonomie, que ce soit en solo ou en équipe.",
         "formations": [
           {
-            "titre": "Excel & Productivité",
-            "description": "Gagnez du temps avec Excel et les outils Microsoft",
-            "duree": "1-2 jours"
+            "titre": "Google Docs — Rédiger et structurer des documents professionnels (2 jours — 14h)",
+            "description": "Maîtrisez Google Docs pour créer, structurer et collaborer sur des documents professionnels en temps réel, depuis n'importe où.",
+            "duree": "14 heures — 2 jours",
+            "public": "Entrepreneurs, indépendants, professions libérales",
+            "prerequis": "Maîtrise de base de l'informatique et compte Google",
+            "objectifs": [
+              "Créer, organiser et gérer des documents dans Google Drive",
+              "Appliquer des mises en forme avancées (styles, titres, sommaires automatiques)",
+              "Insérer et gérer des éléments enrichis (tableaux, images, liens)",
+              "Exporter en différents formats (PDF, Word, ODT)",
+              "Partager, co-éditer et gérer les historiques de versions"
+            ],
+            "programme": {
+              "jour_1": "Fondamentaux : interface, mise en forme, styles de titres, sommaire automatique, insertion d'éléments",
+              "jour_2": "Collaboration : partage, co-édition, historique, export, dictée vocale, correcteur, chips intelligents"
+            },
+            "evaluation": "QCM de fin, certification en ligne, attestation présence, évaluation satisfaction",
+            "accessibilite": "Formations adaptables pour personnes en situation de handicap (ONISEP, AGEFIPH)",
+            "modalite": "Présentiel ou distanciel",
+            "financement": "OPCO, FAF, CPF selon certification"
+          },
+          {
+            "titre": "Google Workspace — Collaborer efficacement (2 jours — 14h)",
+            "description": "Maîtrisez l'ensemble de la suite Google Workspace (Gmail, Drive, Calendar, Meet, Docs, Sheets, Slides, Chat) pour travailler efficacement en équipe, en présentiel, hybride ou à distance.",
+            "duree": "14 heures — 2 jours",
+            "public": "Entrepreneurs, artisans, salariés travaillant en équipe",
+            "prerequis": "Maîtrise de base de l'informatique et compte Google",
+            "objectifs": [
+              "Comprendre les fonctionnalités clés de Google Workspace",
+              "Gérer calendriers et tâches partagés (Calendar, Tasks, Keep)",
+              "Communiquer efficacement via Gmail, Chat et Meet",
+              "Organiser des réunions et webinaires avec Google Meet",
+              "Stocker, partager et co-éditer avec Drive, Docs, Sheets et Slides"
+            ],
+            "programme": {
+              "jour_1": "Fondamentaux, Google Calendar, Google Tasks/Keep, sécurité et confidentialité",
+              "jour_2": "Gmail et Chat, Google Meet (réunions et webinaires), Google Drive, co-édition en temps réel"
+            },
+            "outils": ["Gmail", "Google Drive", "Google Calendar", "Google Meet", "Google Docs", "Google Sheets", "Google Slides", "Google Chat", "Google Tasks", "Google Keep"],
+            "evaluation": "QCM, certification en ligne, livrables créés par les participants",
+            "accessibilite": "Formations adaptables pour personnes en situation de handicap",
+            "modalite": "Présentiel ou distanciel",
+            "financement": "OPCO, FAF, CPF selon certification"
+          },
+          {
+            "titre": "Excel & Tableurs (Google Sheets)",
+            "description": "Maîtrisez Excel ou Google Sheets pour gérer vos données, créer des tableaux de bord et automatiser vos calculs. Indispensable pour tout chef d'entreprise ou responsable.",
+            "objectifs": [
+              "Maîtriser les formules essentielles (SOMME, RECHERCHEV, SI…)",
+              "Créer des tableaux croisés dynamiques",
+              "Automatiser des tâches répétitives",
+              "Créer des graphiques et dashboards de suivi"
+            ],
+            "logiciels": ["Microsoft Excel", "Google Sheets"]
+          },
+          {
+            "titre": "Communication Visuelle pour non-graphistes",
+            "description": "Les fondamentaux de la communication visuelle pour les personnes qui créent des supports sans formation graphique. Comprendre les règles du design, de la typographie et de la couleur pour des supports plus professionnels.",
+            "public": "Responsables communication, chefs d'entreprise, assistants, toute personne qui crée des supports sans formation graphique"
+          }
+        ]
+      },
+
+      "formation_marketing": {
+        "nom": "Formation Stratégie Marketing & Commerciale",
+        "description": "Formation d'accompagnement pour structurer sa stratégie marketing et commerciale globale.",
+        "formations": [
+          {
+            "titre": "Stratégie Marketing et Commerciale (5 jours — 35h)",
+            "description": "Formation approfondie pour structurer sa stratégie marketing et commerciale. Délivrée par Médiagraphique en tant qu'organisme de formation enregistré.",
+            "duree": "35 heures — 5 jours",
+            "objectifs": [
+              "Analyser l'environnement et la cible",
+              "Structurer sa communication en ligne",
+              "Définir la proposition de valeur",
+              "Structurer le plan marketing",
+              "Intégrer le digital et l'omnicanal",
+              "Développer la marque et le branding",
+              "Piloter la performance",
+              "Innover et s'adapter"
+            ],
+            "modalite": "Présentiel chez Médiagraphique ou en intra",
+            "financement": "OPCO (ex : AKTO pour le commerce), CPF"
           }
         ]
       }
-    ],
+    },
+
+    "modalites": {
+      "formats": [
+        {
+          "nom": "Formation Intra",
+          "description": "Organisation sur-mesure pour un groupe de salariés de la même entreprise, dans vos locaux ou un lieu défini. Session entièrement personnalisée selon vos besoins et votre contexte métier."
+        },
+        {
+          "nom": "Formation Inter",
+          "description": "Sessions de catalogue organisées dans les locaux d'O-PAO ou chez nos partenaires (Gessica Center Dijon), en regroupant des participants de différentes entreprises. Idéal pour les indépendants."
+        },
+        {
+          "nom": "Formation à distance (distanciel)",
+          "description": "Sessions en visioconférence, accessibles depuis n'importe où en France. Sessions enregistrables pour revoir le contenu a posteriori à votre rythme."
+        },
+        {
+          "nom": "Formation asynchrone",
+          "description": "Exercices et livrables réalisés en autonomie entre deux sessions présentielles (ex : dossier projet pour la formation IA TPE RS 7311)."
+        }
+      ],
+      "duree_typique": "1 à 3 jours selon la formation (14h à 21h)",
+      "prerequis": "Aucun prérequis obligatoire — O-PAO adapte le programme à votre niveau de départ via un questionnaire de positionnement.",
+      "inscription": "Formulaire d'inscription à envoyer à contact@o-pao.fr — au moins 15 jours avant le début de la formation.",
+      "materiel_distanciel": "PC ou Mac, connexion internet haut débit ADSL, navigateur web, adresse email, écran minimum 17 pouces, caméra recommandée.",
+      "suivi": "O-PAO vous répond personnellement sous 48h avec une proposition adaptée à votre demande.",
+      "personnalisation": "Toutes les formations sont personnalisées selon les besoins et objectifs de chaque bénéficiaire. Un questionnaire de positionnement est envoyé avant chaque session.",
+      "evaluation": {
+        "avant": "Questionnaire de positionnement pour calibrer le programme",
+        "pendant": "Exercices pratiques, mises en situation, échanges oraux, quizz interactifs",
+        "apres": "QCM de fin de formation, certification en ligne (selon formation), attestation de présence, attestation de fin de formation, évaluation de satisfaction à chaud"
+      },
+      "accessibilite": "Les formations O-PAO peuvent être adaptées pour les personnes en situation de handicap. Précisez votre situation à l'inscription pour que nous puissions adapter les conditions d'accueil. Références : ONISEP, AGEFIPH."
+    },
+
+    "financement": {
+      "introduction": "Les formations O-PAO peuvent bénéficier de différents dispositifs de financement. O-PAO est certifié Qualiopi et envoie immédiatement les documents nécessaires à votre organisme financeur. Nous vous guidons dans toutes les démarches administratives.",
+      "dispositifs": [
+        {
+          "nom": "CPF (Compte Personnel de Formation)",
+          "description": "Chaque actif dispose d'un compte CPF alimenté en euros chaque année. Certaines formations O-PAO sont éligibles CPF (WordPress, RS 7311 IA TPE…). Vérifiez votre solde sur moncompteformation.gouv.fr.",
+          "pour_qui": "Salariés, demandeurs d'emploi, travailleurs indépendants",
+          "comment": "Connexion sur moncompteformation.gouv.fr avec FranceConnect, recherche de la formation, inscription"
+        },
+        {
+          "nom": "OPCO (Opérateur de Compétences)",
+          "description": "Chaque entreprise dispose d'un budget de formation via son OPCO sectoriel (AKTO pour le commerce, ATLAS pour les services financiers, etc.). O-PAO vous fournit les documents Qualiopi pour la prise en charge.",
+          "pour_qui": "Salariés (formation prise en charge par l'entreprise via son OPCO)",
+          "examples_opco": ["AKTO (commerce, services)", "ATLAS (banque, finance)", "OCAPIAT (agriculture)", "OPCO EP (social, sport)"]
+        },
+        {
+          "nom": "FAF (Fonds d'Assurance Formation)",
+          "description": "Dispositif de financement spécifique pour les travailleurs non-salariés : artisans, commerçants, professions libérales, auto-entrepreneurs. Financement via leur FAF selon leur secteur.",
+          "pour_qui": "Auto-entrepreneurs, indépendants, artisans, professions libérales",
+          "examples": ["FAF PM (professions libérales)", "FIFPL", "AGEFICE (commerçants et dirigeants)"]
+        },
+        {
+          "nom": "AIF (Aide Individuelle à la Formation)",
+          "description": "Aide de France Travail (ex-Pôle Emploi) pour financer la formation des demandeurs d'emploi dans le cadre d'un projet de reconversion ou de retour à l'emploi.",
+          "pour_qui": "Demandeurs d'emploi inscrits à France Travail"
+        },
+        {
+          "nom": "Plan de développement des compétences",
+          "description": "Les entreprises peuvent financer directement des formations dans le cadre de leur plan de développement des compétences, en accord avec leur OPCO.",
+          "pour_qui": "Entreprises pour leurs salariés"
+        }
+      ]
+    },
+
     "public_cible": [
-      "Dirigeants et entrepreneurs",
-      "Indépendants",
-      "Responsables communication",
-      "Créateurs d'entreprises",
-      "Demandeurs d'emploi"
+      "Dirigeants et chefs d'entreprise qui veulent monter en compétence",
+      "Indépendants et auto-entrepreneurs",
+      "Responsables communication et marketing",
+      "Créateurs d'entreprise",
+      "Demandeurs d'emploi en reconversion professionnelle",
+      "Salariés souhaitant se former avec le CPF",
+      "Professions libérales (médecins, avocats, architectes…)",
+      "Artisans souhaitant maîtriser leur communication"
     ]
   },
 
-  "processus_contact": {
+  "processus_accompagnement": {
+    "description": "Notre approche : comprendre votre situation, définir la stratégie adaptée, puis mettre en place les actions. On vous accompagne à chaque étape sans vous laisser seul face aux prestataires.",
     "etapes": [
-      "Prendre contact par email ou téléphone",
-      "Première discussion pour comprendre vos besoins",
-      "Audit ou diagnostic si nécessaire",
-      "Proposition adaptée à vos objectifs et budget",
-      "Mise en place et accompagnement"
+      {
+        "numero": 1,
+        "titre": "Premier contact",
+        "description": "Prenez contact par email ou téléphone. On vous répond sous 24 à 48h — pas de standardiste, vous parlez directement à un expert.",
+        "contact": "contact@mediagraphique.com | 03 80 54 02 42"
+      },
+      {
+        "numero": 2,
+        "titre": "Découverte de vos besoins",
+        "description": "Un premier échange pour comprendre votre activité, vos objectifs, vos contraintes budgétaires et votre situation actuelle. Pas de jargon, pas de pression — juste une écoute sincère."
+      },
+      {
+        "numero": 3,
+        "titre": "Audit ou diagnostic (si nécessaire)",
+        "description": "Audit de votre communication existante pour identifier les points forts à capitaliser et les axes d'amélioration prioritaires. On vous dit ce qui fonctionne ET ce qui bloque."
+      },
+      {
+        "numero": 4,
+        "titre": "Proposition sur-mesure",
+        "description": "On vous propose une solution adaptée à vos objectifs ET à votre budget. Pas de package standard — chaque client est unique.",
+        "delai": "En général sous une semaine"
+      },
+      {
+        "numero": 5,
+        "titre": "Mise en place et accompagnement",
+        "description": "On passe à l'action et on vous accompagne tout au long du projet. Suivi, ajustements, et conseils en continu jusqu'à l'atteinte de vos objectifs."
+      }
     ],
-    "delai_reponse": "24 à 48h en général",
-    "contact_email": "contact@mediagraphique.com",
-    "contact_telephone": "+33 3 80 54 02 42"
+    "delai_reponse": "24 à 48h",
+    "philosophie": "On ne crée pas juste des sites ou des logos. On vous accompagne dans l'ensemble de votre communication pour que tout soit cohérent et efficace, et que votre investissement génère de vrais résultats."
   },
 
   "faq": [
     {
-      "question": "Vous proposez quel type de services?",
-      "reponse": "Nous sommes une agence de conseil en communication et marketing. Nous accompagnons artisans et entrepreneurs pour améliorer leur visibilité, profitabiliser leur image et attirer plus de clients. Cela inclut: conseil stratégique, création de sites web, design graphique, marketing digital et formations."
+      "question": "Qu'est-ce que Médiagraphique ?",
+      "reponse": "Médiagraphique est une agence de conseil en communication et marketing basée à Chenôve (Dijon), fondée en 1992 par Pascal Lafont. Depuis plus de 30 ans, nous accompagnons artisans, entrepreneurs et PME en Côte-d'Or dans toute leur stratégie de communication : identité visuelle, site web, stratégie digitale, supports print, réseaux sociaux et formations. Notre différence : on pense votre communication globalement et stratégiquement, pas à la pièce."
     },
     {
-      "question": "Pour qui travaillez-vous?",
-      "reponse": "Nous accompagnons principalement artisans, entrepreneurs, créateurs d'entreprise et PME en Côte-d'Or et alentours. Notre expertise: les clients qui veulent se professionnaliser et passer au niveau supérieur."
+      "question": "Vous proposez quels types de services ?",
+      "reponse": "Nous couvrons l'ensemble du spectre de la communication : 1) Stratégie de communication (identité visuelle, branding, plan de communication, veille concurrentielle), 2) Stratégie web (création de site WordPress/WooCommerce, SEO, motion design, community management), 3) Supports de communication print (flyers, brochures, catalogues) et signalétique (roll-up, totems, marquage véhicule), 4) Décoration d'entreprise (aménagement visuel de vos locaux), 5) Accompagnement stratégie marketing et commerciale, 6) Formations professionnelles via O-PAO."
     },
     {
-      "question": "Proposez-vous des formations?",
-      "reponse": "Oui! Via notre structure O-PAO, nous proposons des formations pratiques et courtes (1-2 jours) sur: la communication, l'IA, le web et la bureautique. Pour les détails et calendrier, visitez https://o-pao.fr"
+      "question": "Pour qui travaillez-vous ?",
+      "reponse": "Principalement des artisans, entrepreneurs, créateurs d'entreprise, indépendants et PME en Côte-d'Or. Nos clients veulent se professionnaliser, gagner en visibilité et attirer des clients plus qualifiés. On travaille aussi avec des entreprises industrielles (TDC Tools) ou des acteurs de l'immobilier et de la conciergerie."
     },
     {
-      "question": "Combien ça coûte?",
-      "reponse": "Les tarifs varient selon vos besoins spécifiques. Nous adaptons nos solutions et nos budgets. Contactez-nous au +33 3 80 54 02 42 ou contact@mediagraphique.com pour un devis sans engagement."
+      "question": "Quelle est votre zone géographique ?",
+      "reponse": "Basés à Chenôve (Dijon) depuis 1992. Nous intervenons principalement sur Dijon, la Côte-d'Or et la Bourgogne. Les projets web, stratégie et formations à distance peuvent être réalisés partout en France."
     },
     {
-      "question": "Combien de temps pour démarrer un projet?",
-      "reponse": "Cela dépend du projet. En général: première discussion immédiate, diagnostic 3-5 jours, proposition dans la semaine, mise en œuvre la semaine suivante. On s'adapte à votre urgence."
+      "question": "Proposez-vous des formations ?",
+      "reponse": "Oui ! Via O-PAO (o-pao.fr), notre organisme de formation certifié Qualiopi et habilité ICDL, nous proposons des formations sur : PAO (Adobe InDesign, Illustrator, Photoshop, Canva), Intelligence Artificielle (formations 2 ou 3 jours dont certifiantes RS 7311 et CERTIFOPAC), Web & Réseaux Sociaux (WordPress CPF, community management), et Bureautique (Google Docs, Google Workspace, Excel). Toutes les formations sont finançables (CPF, OPCO, FAF, AIF)."
     },
     {
-      "question": "Êtes-vous basés à Dijon?",
-      "reponse": "Oui, nous sommes basés à Chenôve (Dijon) depuis 1993. Nous accompagnons clients en Côte-d'Or, Bourgogne et alentours, mais pouvons travailler en télétravail sur certains projets."
+      "question": "Vos formations sont-elles finançables ?",
+      "reponse": "Oui ! O-PAO est certifié Qualiopi. Selon votre situation : CPF si vous êtes salarié ou demandeur d'emploi, OPCO si votre entreprise veut financer votre formation, FAF si vous êtes indépendant ou auto-entrepreneur, AIF si vous êtes demandeur d'emploi inscrit à France Travail. On vous aide dans toutes les démarches administratives."
     },
     {
-      "question": "Vous m'aider avec mon cas spécifique?",
-      "reponse": "Très probablement! Nos experts Médiagraphique adaptent leurs services à chaque situation. Décrivez-moi votre projet et je verrai comment nous pouvons vous accompagner. Sinon, nous vous recommanderons un partenaire."
+      "question": "Proposez-vous des formations en IA ?",
+      "reponse": "Oui, c'est l'une de nos spécialités ! Via O-PAO, nous proposons plusieurs niveaux : la Formation IA Fondamentaux (2 jours / 14h, tous publics), la Formation IA TPE certifiante RS 7311 (3 jours / 21h, finançable CPF, pour dirigeants de TPE), la Formation IA Adobe (2 jours, IA dans Firefly/Photoshop/Illustrator), et la Formation IA Certifopac (3 jours, 1500€). Les formations couvrent ChatGPT, Claude, Gemini, Midjourney, Adobe Firefly, les automatisations Make/Zapier, et bien plus."
+    },
+    {
+      "question": "Quelle est la différence entre la Formation IA 2 jours et la Formation IA 3 jours certifiante ?",
+      "reponse": "La formation IA 2 jours (14h) est la formation fondamentaux : comprendre l'IA, maîtriser les prompts, générer du contenu, automatiser. Accessible à tous, sans certification spécifique. La formation 3 jours RS 7311 'Améliorer l'efficacité de sa TPE à l'aide de l'IA' est certifiante (France Compétences), finançable CPF, avec une soutenance devant jury et un dossier de projet. Elle s'adresse spécifiquement aux dirigeants de TPE avec un projet d'intégration de l'IA."
+    },
+    {
+      "question": "Combien coûte une formation ?",
+      "reponse": "Les tarifs varient selon la formation : la Formation IA avec certification CERTIFOPAC est à 1500€ (3 jours). Pour les autres formations, contactez O-PAO à contact@o-pao.fr ou sur o-pao.fr pour obtenir un devis personnalisé. Rappel : la plupart des formations sont finançables à 0€ de reste à charge via le CPF, l'OPCO ou le FAF."
+    },
+    {
+      "question": "Combien coûtent vos services de communication ?",
+      "reponse": "Nos tarifs sont adaptés aux petites et moyennes entreprises. Chaque projet étant unique, nous faisons des propositions sur-mesure. Pour un site web, l'hébergement est à 393€/an, la maintenance à 385€/an (tarifs indicatifs). Pour tout autre service, contactez-nous au 03 80 54 02 42 ou contact@mediagraphique.com pour un devis gratuit et sans engagement."
+    },
+    {
+      "question": "Combien de temps pour démarrer un projet ?",
+      "reponse": "On est réactifs ! En général : premier échange dès que vous nous contactez, diagnostic en 3 à 5 jours, proposition sous une semaine, mise en œuvre la semaine suivante. Pour les urgences, on s'adapte."
+    },
+    {
+      "question": "Êtes-vous seulement une agence web ?",
+      "reponse": "Non, bien au contraire ! Nous sommes une agence de conseil en communication globale. On crée des sites web, oui — mais aussi des identités visuelles complètes (logo, charte, naming), des supports print (flyers, catalogues, brochures), des vidéos en motion design, de la signalétique (roll-up, totems, marquage véhicule), de la décoration d'entreprise, et on forme vos équipes. L'idée : que tout soit cohérent et serve votre objectif business."
+    },
+    {
+      "question": "Quelle est la différence entre Médiagraphique et O-PAO ?",
+      "reponse": "Médiagraphique est l'agence de conseil en communication — on vous accompagne dans votre communication globale et vos projets digitaux. O-PAO est notre organisme de formation — on vous forme pour que vous soyez plus autonome sur les outils de communication et du numérique. Les deux sont complémentaires : nous pouvons vous accompagner ET vous former selon votre besoin."
+    },
+    {
+      "question": "Quelle taille d'entreprise accompagnez-vous ?",
+      "reponse": "Principalement des TPE, PME, artisans et indépendants. Pas besoin d'être une grande entreprise pour communiquer avec professionnalisme ! On a des solutions adaptées à toutes les tailles de structure et tous les budgets — même les plus modestes."
+    },
+    {
+      "question": "Puis-je demander juste un logo ou juste un site ?",
+      "reponse": "Oui, c'est possible. Mais notre force, c'est de penser global : un logo cohérent avec votre site, lui-même cohérent avec vos réseaux sociaux et vos supports print. On vous conseillera toujours dans ce sens pour maximiser l'impact de votre investissement. À vous de décider ensuite !"
+    },
+    {
+      "question": "Faites-vous des sites e-commerce ?",
+      "reponse": "Oui ! Nous créons des sites e-commerce avec WooCommerce (sous WordPress). Nous avons notamment accompagné TDC Tools dans leur projet de boutique en ligne pour la vente de produits industriels. Nous gérons tout : maquettage (Adobe XD), développement WordPress/Divi/WooCommerce, intégration des produits, gestion des paiements, stratégie SEO."
+    },
+    {
+      "question": "Proposez-vous la maintenance de sites web ?",
+      "reponse": "Oui, nous proposons un forfait annuel de maintenance incluant mises à jour techniques, sauvegardes et support. Tarif indicatif : 385€/an pour la maintenance + 393€/an pour l'hébergement. Chaque situation étant différente, contactez-nous pour un devis adapté."
+    },
+    {
+      "question": "Que comprend votre formation Google Workspace ?",
+      "reponse": "La formation Google Workspace dure 2 jours (14h) et couvre l'ensemble de la suite : Gmail (filtres, étiquettes, réponses automatiques), Google Calendar (calendriers partagés, réunions récurrentes), Google Meet (webinaires, partage d'écran), Google Drive (organisation, autorisations), et la co-édition en temps réel sur Docs, Sheets et Slides. Public : entrepreneurs, artisans, salariés en équipe."
+    },
+    {
+      "question": "Vos formations sont-elles accessibles aux personnes handicapées ?",
+      "reponse": "Oui ! Nos formations peuvent être adaptées pour les personnes en situation de handicap. Il suffit de préciser votre situation à l'inscription pour que nous puissions confirmer les possibilités d'accueil et adapter les conditions de formation. Références utiles : ONISEP, AGEFIPH."
+    },
+    {
+      "question": "Pouvez-vous m'aider avec mon cas spécifique ?",
+      "reponse": "Très probablement ! Chaque client est unique et nos experts s'adaptent à chaque situation. Décrivez-moi votre projet et je verrai comment nous pouvons vous accompagner au mieux. Si votre besoin dépasse notre champ d'expertise, nous vous orienterons vers les bonnes personnes."
     }
-  ],
-
-  "points_forts": [
-    "30 ans d'expérience et expertise reconnue",
-    "Approche personnalisée et sur-mesure",
-    "Résultats concrets et mesurables",
-    "Accompagnement de A à Z (conseil + mise en place)",
-    "Tarifs adaptés aux petites et moyennes entreprises",
-    "Local et à l'écoute du territoire Dijon/Côte-d'Or"
   ],
 
   "chatbot_config": {
     "name": "Assistant Médiagraphique",
-    "tone": "Expert-conseiller, professionnel mais accessible, avec une touche d'humanité. Utile et bienveillant.",
-    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Dijon depuis 1993. Tu aides les prospects (artisans, entrepreneurs, créateurs d'entreprise) à comprendre comment Médiagraphique peut les aider à se professionnaliser et attirer plus de clients. Tu réponds avec expertise, bienveillance et humanité. Tu poses des questions pour mieux comprendre leurs besoins. Si tu ne connais pas la réponse, tu dis 'Je ne suis pas sûr, mais je peux vous mettre en contact avec nos experts.' Ne invente jamais d'informations. Toujours bienveillant.",
+    "tone": "Expert-conseiller bienveillant, professionnel mais accessible et humain. On est une agence locale, on parle vrai. Pas de jargon inutile, des conseils concrets et actionnables.",
+    "personnalite": [
+      "Chaleureux et à l'écoute",
+      "Expert sans être condescendant",
+      "Orienté solutions et résultats concrets",
+      "Local et ancré dans le territoire dijonnais",
+      "Réactif et disponible",
+      "Pédagogue — capable d'expliquer les concepts simplement"
+    ],
+    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Chenôve (Dijon) depuis 1992, fondée par Pascal Lafont (graphiste plasticien de formation). L'agence accompagne artisans, entrepreneurs et PME en Côte-d'Or dans toute leur communication : identité visuelle et branding, création de sites web (WordPress/WooCommerce), SEO, stratégie digitale et réseaux sociaux, supports print (flyers, catalogues, brochures), signalétique (roll-up, totems, marquage véhicule), décoration d'entreprise, motion design, et accompagnement stratégie marketing. Via la structure O-PAO (o-pao.fr), certifiée Qualiopi et habilitée ICDL (n° 26210165421 DREETS BFC), l'agence propose aussi des formations professionnelles finançables (CPF, OPCO, FAF, AIF) sur : PAO (Adobe InDesign, Illustrator, Photoshop, Canva), IA (2 jours fondamentaux, 3 jours certifiant RS 7311, IA Adobe, CERTIFOPAC 1500€), Web (WordPress CPF, community management), et Bureautique (Google Docs 2j, Google Workspace 2j, Excel). Ton rôle : aider les prospects à comprendre comment Médiagraphique peut les aider. Réponds avec expertise, bienveillance et naturel. Pose des questions pour mieux cerner les besoins. Si tu ne connais pas la réponse exacte, dis clairement que tu n'es pas sûr et propose de les mettre en contact. Ne jamais inventer d'informations. Toujours proposer de passer à l'action via le contact.",
     "initial_messages": [
-      "Bonjour 👋 Je suis l'assistant Médiagraphique. Comment puis-je vous aider?",
-      "Besoin de conseil en communication? Intéressé par une formation? Je suis là pour vous aider.",
-      "Bienvenue! Je peux vous parler de nos services, formations, ou comment nous travaillons."
+      "Bonjour 👋 Je suis l'assistant Médiagraphique. Comment puis-je vous aider aujourd'hui ?",
+      "Besoin de conseil en communication ? Vous cherchez une formation ? Je suis là pour vous guider !",
+      "Bienvenue ! Je peux vous parler de nos services, de nos formations O-PAO, ou simplement vous aider à trouver la bonne solution pour votre projet."
+    ],
+    "regles": [
+      "Ne jamais inventer de prix ou de tarifs précis — renvoyer vers le contact pour un devis (sauf tarifs clairement documentés : hébergement 393€/an, maintenance 385€/an, CERTIFOPAC 1500€)",
+      "Toujours orienter vers le contact email ou téléphone pour les demandes précises",
+      "Valoriser l'approche globale de l'agence, pas seulement les services isolés",
+      "Mentionner O-PAO et les certifications Qualiopi/ICDL quand la question concerne la formation",
+      "Mentionner les financements CPF, OPCO, FAF, AIF quand la question concerne le coût des formations",
+      "Souligner les 30+ ans d'expérience et l'ancrage local Dijon/Côte-d'Or quand pertinent",
+      "Toujours proposer de poser d'autres questions ou d'être mis en relation avec l'équipe",
+      "Quand quelqu'un parle de formation IA, détailler les différents niveaux disponibles (2j, 3j RS7311, IA Adobe, CERTIFOPAC)"
     ]
+  },
+
+  "contact_et_ressources": {
+    "mediagraphique": {
+      "email": "contact@mediagraphique.com",
+      "telephone": "03 80 54 02 42",
+      "adresse": "39 Avenue du 14 Juillet, 21300 Chenôve (Dijon)",
+      "site": "https://mediagraphique.com",
+      "reseaux_sociaux": {
+        "linkedin": "https://fr.linkedin.com/company/mediagraphique"
+      }
+    },
+    "opao": {
+      "email": "contact@o-pao.fr",
+      "site": "https://o-pao.fr",
+      "inscription": "Formulaire d'inscription sur o-pao.fr — réponse personnalisée sous 48h",
+      "pages_formations": {
+        "indesign": "https://o-pao.fr/adobe-indesign/",
+        "illustrator": "https://o-pao.fr/adobe-illustrator/",
+        "photoshop": "https://o-pao.fr/adobe-photoshop/",
+        "wordpress": "https://o-pao.fr/wordpress/",
+        "adobe_xd": "https://o-pao.fr/adobe-xd/",
+        "prepresse": "https://o-pao.fr/la-prepresse/",
+        "formations_pao": "https://o-pao.fr/nos-formations-print/",
+        "formations_web": "https://o-pao.fr/nos-formations-web/",
+        "formations_bureautique": "https://o-pao.fr/formations-bureautique/",
+        "infos_pratiques": "https://o-pao.fr/infos-pratiques/",
+        "cgv": "https://o-pao.fr/conditions-generales-de-vente/"
+      }
+    }
   }
 }
