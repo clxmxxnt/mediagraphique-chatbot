@@ -5,8 +5,11 @@
  * Méthode: POST
  * Body: { "message": "votre message" }
  *
- * Utilise Groq API (GRATUIT, très rapide)
+ * OPTION 1: Claude API (€10/mois) - Excellente qualité
+ * OPTION 2: Hugging Face (GRATUIT) - Bonne qualité
  */
+
+import Anthropic from "@anthropic-ai/sdk";
 
 const SYSTEM_PROMPT = `Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Dijon depuis 1993.
 
@@ -74,59 +77,67 @@ STYLE:
 
 TON GLOBAL: Tu es un commercial de Médiagraphique. Tu accueilles, tu qualifies les besoins, tu proposes des solutions.`;
 
-// ===== GROQ API CALL =====
-async function chatWithGroq(userMessage) {
-  const apiKey = process.env.GROQ_API_KEY;
-  
-  // Vérification: Est-ce que la clé est configurée?
+// ===== OPTION 1: CLAUDE API (RECOMMANDÉ) =====
+async function chatWithClaude(userMessage) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    throw new Error('GROQ_API_KEY not configured in environment variables');
+    throw new Error('ANTHROPIC_API_KEY not configured');
   }
 
-  // Appel à l'API Groq
-  const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'llama-3.1-8b-instant', // Modèle puissant et gratuit de Groq
-      messages: [
-        {
-          role: 'system',
-          content: SYSTEM_PROMPT,
-        },
-        {
-          role: 'user',
-          content: userMessage,
-        },
-      ],
-      max_tokens: 180,
-      temperature: 0.7,
-    }),
+  const client = new Anthropic({ apiKey });
+
+  const response = await client.messages.create({
+    model: 'claude-3-5-haiku-20241022', // Haiku = très peu cher
+    max_tokens: 180,
+    system: SYSTEM_PROMPT,
+    messages: [
+      {
+        role: 'user',
+        content: userMessage,
+      },
+    ],
   });
 
-  // Vérification: L'API a-t-elle répondu correctement?
+  return response.content[0].type === 'text' ? response.content[0].text : '';
+}
+
+// ===== OPTION 2: HUGGING FACE (GRATUIT) =====
+async function chatWithHuggingFace(userMessage) {
+  const apiKey = process.env.HUGGINGFACE_API_KEY;
+  if (!apiKey) {
+    throw new Error('HUGGINGFACE_API_KEY not configured');
+  }
+
+  const model = 'mistralai/Mistral-7B-Instruct-v0.1';
+  const fullPrompt = `${SYSTEM_PROMPT}\n\nUtilisateur: ${userMessage}\n\nAssistant:`;
+
+  const response = await fetch(
+    `https://api-inference.huggingface.co/models/${model}`,
+    {
+      headers: { Authorization: `Bearer ${apiKey}` },
+      method: 'POST',
+      body: JSON.stringify({
+        inputs: fullPrompt,
+        parameters: {
+          max_new_tokens: 180,
+          temperature: 0.7,
+          top_p: 0.9,
+        },
+      }),
+    }
+  );
+
   if (!response.ok) {
-    const errorData = await response.json();
-    throw new Error(`Groq API error: ${response.status} - ${errorData.error?.message || response.statusText}`);
+    throw new Error(`HuggingFace API error: ${response.statusText}`);
   }
 
-  // Extraction de la réponse
-  const data = await response.json();
-  
-  // Vérification: Y a-t-il une réponse?
-  if (!data.choices || !data.choices[0] || !data.choices[0].message) {
-    throw new Error('No response from Groq API');
-  }
-
-  return data.choices[0].message.content;
+  const result = await response.json();
+  return result[0]?.generated_text?.split('Assistant:')[1]?.trim() || 'Je ne peux pas répondre pour le moment.';
 }
 
 // ===== ENDPOINT PRINCIPAL =====
 export default async function handler(req, res) {
-  // Configuration CORS (autoriser les requêtes du site)
+  // CORS
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
@@ -135,43 +146,43 @@ export default async function handler(req, res) {
     'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
   );
 
-  // Gérer les requêtes OPTIONS (obligatoire pour CORS)
   if (req.method === 'OPTIONS') {
     res.status(200).end();
     return;
   }
 
-  // Vérifier que c'est une requête POST
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
   try {
-    // Extraire le message du corps de la requête
     const { message } = req.body;
 
-    // Vérifier que le message existe et n'est pas vide
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return res.status(400).json({ error: 'Invalid or empty message' });
     }
 
-    // Limiter la longueur du message (évite les abus)
+    // Limiter la longueur du message
     const sanitizedMessage = message.trim().slice(0, 500);
 
-    // Appeler Groq pour obtenir une réponse
-    const reply = await chatWithGroq(sanitizedMessage);
+    // Utiliser Claude si la clé est disponible, sinon Hugging Face
+    let reply;
+    if (process.env.ANTHROPIC_API_KEY) {
+      reply = await chatWithClaude(sanitizedMessage);
+    } else if (process.env.HUGGINGFACE_API_KEY) {
+      reply = await chatWithHuggingFace(sanitizedMessage);
+    } else {
+      throw new Error('No API key configured. Set ANTHROPIC_API_KEY or HUGGINGFACE_API_KEY');
+    }
 
-    // Retourner la réponse au chatbot
     return res.status(200).json({
       success: true,
       reply: reply,
       timestamp: new Date().toISOString(),
     });
   } catch (error) {
-    // Afficher l'erreur dans les logs Vercel (très utile pour déboguer)
     console.error('Chatbot Error:', error);
 
-    // Retourner une erreur au chatbot
     return res.status(500).json({
       success: false,
       error: 'Une erreur est survenue. Contactez-nous à contact@mediagraphique.com',
