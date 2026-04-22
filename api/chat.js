@@ -71,7 +71,7 @@ async function chatWithGroq(userMessage) {
           content: userMessage,
         },
       ],
-      max_tokens: 400,
+      max_tokens: 180,
       temperature: 0.7,
     }),
   });
