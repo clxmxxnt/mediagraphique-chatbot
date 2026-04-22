@@ -125,9 +125,9 @@
     }
 
     .chatbot-header h3 {
-      margin: 0;
-      font-size: 16px;
-      font-weight: 600;
+      margin-left: 5%;
+      font-size: 26px;
+      font-weight: 400;
     }
 
     .chatbot-header .close-btn {
