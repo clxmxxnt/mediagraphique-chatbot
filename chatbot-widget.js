@@ -102,7 +102,7 @@
   .chatbot-header {
       background: rgba(85, 191, 206, 0.3);
       color: ${CONFIG.colors.white};
-      padding: 12px 16px;
+      padding: 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -117,17 +117,12 @@
     }
     
     .chatbot-header h3 {
-      margin-left: 5%;
-      font-size: 22px;
-      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      font-weight: 600;
       color: #000000;
       flex: 1;
-    }
-
-    .chatbot-header h3 {
-      margin-left: 5%;
-      font-size: 22px;
-      font-weight: 400;
     }
 
     .chatbot-header .close-btn {
