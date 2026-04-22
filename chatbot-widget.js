@@ -390,20 +390,6 @@
           console.error('Error:', err);
           addMessage('Erreur de connexion. Essayez plus tard ou appelez-nous au +33 3 80 54 02 42', 'bot');
         });
-      .then(data => {
-  removeTypingIndicator();
-  if (data.success) {
-    addMessage(data.reply, 'bot');
-    
-    // ✨ NOUVEAU: Si la réponse se termine par "Développer?", ajouter un bouton
-    if (data.reply.includes('Voulez-vous que je développe')) {
-      // Optionnel: ajouter un bouton "En savoir plus"
-      setTimeout(() => {
-        addMessage('💡 Voulez-vous que je développe ce point en détail?', 'bot');
-      }, 500);
-    }
-  }
-})
     }
 
     sendBtn.addEventListener('click', sendMessage);
