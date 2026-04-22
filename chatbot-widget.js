@@ -56,7 +56,7 @@
       transition: all 0.3s ease;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     .chatbot-toggle:hover {
