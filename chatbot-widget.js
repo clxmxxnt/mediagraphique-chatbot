@@ -120,7 +120,7 @@
       margin: 0;
       font-size: 14px;
       font-weight: 600;
-      color: ${CONFIG.colors.white};
+      color: #000000;
       flex: 1;
     }
 
