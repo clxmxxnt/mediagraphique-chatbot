@@ -117,16 +117,16 @@
     }
     
     .chatbot-header h3 {
-      margin: 0;
-      font-size: 14px;
-      font-weight: 600;
+      margin-left: 5%;
+      font-size: 22px;
+      font-weight: 400;
       color: #000000;
       flex: 1;
     }
 
     .chatbot-header h3 {
       margin-left: 5%;
-      font-size: 26px;
+      font-size: 22px;
       font-weight: 400;
     }
 
