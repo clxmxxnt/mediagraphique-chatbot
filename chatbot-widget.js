@@ -99,14 +99,29 @@
       }
     }
 
-    .chatbot-header {
-      background: ${CONFIG.colors.primary};
+  .chatbot-header {
+      background: rgba(85, 191, 206, 0.3);
       color: ${CONFIG.colors.white};
-      padding: 16px;
+      padding: 12px 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-bottom: 1px solid ${CONFIG.colors.border};
+      gap: 10px;
+    }
+    
+    .chatbot-header-logo {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+    }
+    
+    .chatbot-header h3 {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      color: ${CONFIG.colors.white};
+      flex: 1;
     }
 
     .chatbot-header h3 {
@@ -127,6 +142,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    .chatbot-header .close-btn:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+      transition: all 0.2s ease;
     }
 
     .chatbot-messages {
@@ -164,6 +185,20 @@
       font-size: 14px;
       line-height: 1.4;
       font-family: ${CONFIG.fonts.secondary};
+    }
+
+    .message-bot-logo {
+      width: 20px;
+      height: 20px;
+      margin-right: 6px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+    
+    .message.bot {
+      display: flex;
+      align-items: flex-start;
+      gap: 4px;
     }
 
     .message.bot .message-content {
@@ -334,7 +369,8 @@
 
       <div class="chatbot-window hidden">
         <div class="chatbot-header">
-          <h3>Médiagraphique</h3>
+          <img src="https://raw.githubusercontent.com/clxmxxnt/mediagraphique-chatbot/main/public/M mediagraphique noir.png" alt="Médiagraphique" class="chatbot-header-logo">
+          <h3>Besoin d'aide ?</h3>
           <button class="close-btn" title="Fermer">×</button>
         </div>
 
@@ -460,7 +496,16 @@
     function addMessage(text, sender) {
       const messageEl = document.createElement('div');
       messageEl.className = `message ${sender}`;
-      messageEl.innerHTML = `<div class="message-content">${escapeHtml(text)}</div>`;
+      
+      if (sender === 'bot') {
+        messageEl.innerHTML = `
+          <img src="https://raw.githubusercontent.com/clxmxxnt/mediagraphique-chatbot/main/public/M mediagraphique noir.png" alt="Bot" class="message-bot-logo">
+          <div class="message-content">${escapeHtml(text)}</div>
+        `;
+      } else {
+        messageEl.innerHTML = `<div class="message-content">${escapeHtml(text)}</div>`;
+      }
+      
       messagesDiv.appendChild(messageEl);
       messagesDiv.scrollTop = messagesDiv.scrollHeight;
     }
