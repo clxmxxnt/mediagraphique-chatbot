@@ -43,6 +43,14 @@
       "Pédagogie bienveillante et formations pratiques orientées terrain"
     ],
     "equipe": {
+      "description": "Une équipe multidisciplinaire et passionnée de graphistes, développeurs, stratèges, consultants et formateurs qui partagent la même vision : un service à la hauteur des attentes clients.",
+      "profils": [
+        "Graphistes et designers",
+        "Développeurs web (WordPress, WooCommerce, Divi)",
+        "Consultants en stratégie de communication",
+        "Experts en marketing digital et SEO",
+        "Formateurs certifiés (PAO, Web, IA, Bureautique)"
+      ],
       "membres": [
         {
           "nom": "Pascal Lafont",
@@ -55,7 +63,7 @@
           "nom": "Audrey Devallière",
           "titre": "Consultante en communication digitale et formatrice",
           "formation": "Master Stratégie Digitale — DUT Gestion des Entreprises et des Organisations",
-          "role": "Spécialiste en visibilité en ligne, réseaux sociaux et création de contenu. Accompagne les clients dans le développement de leur présence digitale et anime des ateliers de formation (notamment 'Création de contenu et rédaction' en partenariat avec la CCI Côte-d'Or).",
+          "role": "Spécialiste en visibilité en ligne, réseaux sociaux et création de contenu. Accompagne les clients dans le développement de leur présence digitale et anime des ateliers de formation, notamment en création de contenu et rédaction web en partenariat avec la CCI Côte-d'Or.",
           "competences": ["Stratégie digitale", "Community management", "Création de contenu", "Rédaction web", "Réseaux sociaux"]
         },
         {
@@ -65,14 +73,6 @@
           "role": "En alternance au sein de l'agence. Intervient sur la création et la gestion des réseaux sociaux, la stratégie de contenu, la prospection commerciale (emailing, phoning), l'intégration web et la production de supports graphiques clients.",
           "competences": ["Réseaux sociaux", "Création de contenu", "Marketing digital", "Intégration web", "Supports graphiques", "Prospection commerciale"]
         }
-      ]
-      "description": "Une équipe multidisciplinaire et passionnée de graphistes, développeurs, stratèges, consultants et formateurs qui partagent la même vision : un service à la hauteur des attentes clients.",
-      "profils": [
-        "Graphistes et designers",
-        "Développeurs web (WordPress, WooCommerce, Divi)",
-        "Consultants en stratégie de communication",
-        "Experts en marketing digital et SEO",
-        "Formateurs certifiés (PAO, Web, IA, Bureautique)"
       ]
     },
     "points_forts": [
