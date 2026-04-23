@@ -143,7 +143,7 @@
           "description": "Sites web modernes, responsives (adaptés mobile) et performants, conçus pour vos besoins spécifiques. On pense expérience utilisateur pour que votre site séduise ET convertisse vos visiteurs en clients.",
           "types": ["Site vitrine", "Site e-commerce (WooCommerce)", "Site catalogue avec devis en ligne", "Landing page"],
           "technologies": ["WordPress", "Divi Builder", "WooCommerce", "Adobe XD (maquettage)"],
-          "inclut": ["Webdesign sur-mesure", "Développement et intégration", "Expérience Utilisateur (UX)", "Hébergement", "Maintenance annuelle"],
+          "inclut": ["Webdesign sur-mesure", "Développement et intégration", "Expérience Utilisateur (UX)", "Hébergement", "Maintenance annuelle"]
         },
         {
           "nom": "Référencement SEO",
