@@ -389,12 +389,11 @@
             "financement": "CPF (RS 7311), OPCO, FAF"
           },
           {
-            "titre": "Formation IA avec Certification CERTIFOPAC (3 jours — 1500€)",
-            "reference": "CERTIFOPAC / The Media Faculty — 6891",
-            "certification": "Certification CERTIFOPAC 6891 — Intégrer l'IA dans une stratégie de communication créative et performante",
+            "titre": "Formation IA avec Certification",
+            "reference": "Formation IA / Médiagraphique",
+            "certification": "Certification — Développer l'efficacité de sa TPE grâce à l'IA",
             "description": "Formation certifiante de 3 jours orientée communication créative. Positionnement unique : l'IA comme partenaire créatif — faire émerger plus d'idées, tester plus vite, oser plus fort.",
             "duree": "3 jours",
-            "tarif": "1500€",
             "public": "Responsables communication, directeurs marketing, créatifs, agences",
             "programme_jour_1": [
               "Prompt engineering : structurer un prompt avec des objectifs professionnels",
