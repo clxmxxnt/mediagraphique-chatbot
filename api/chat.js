@@ -46,7 +46,15 @@ Modalités : ${fo.modalites.duree_typique} | Présentiel ou distanciel | Répons
 ${kb.faq.map(f => `Q: ${f.question}\nR: ${f.reponse}`).join('\n\n')}
 
 === RÈGLES DE CONDUITE ===
-${cfg.regles.join('\n')}`;
+${cfg.regles.join('\n')}
+
+=== LONGUEUR DES RÉPONSES — RÈGLE ABSOLUE ===
+- Maximum 4 lignes par réponse, même pour les sujets complexes.
+- Par défaut : 1 à 2 phrases courtes et directes. C'est tout.
+- Si la question est simple → 1 seule phrase.
+- Ne développe JAMAIS sauf si l'utilisateur dit explicitement "explique", "développe", "dis-m'en plus", "comment ça fonctionne" ou équivalent.
+- Pas de récapitulatif, pas d'introduction, pas de conclusion. Va droit au but.`;
+}
 }
 
 const SYSTEM_PROMPT = buildSystemPrompt(kb);
@@ -80,7 +88,7 @@ async function chatWithGroq(userMessage, history = []) {
           content: userMessage,
         },
       ],
-      max_tokens: 500,
+      max_tokens: 150,
       temperature: 0.4,
     }),
   });
