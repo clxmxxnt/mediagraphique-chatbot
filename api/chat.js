@@ -9,7 +9,9 @@
  */
 
 import Anthropic from '@anthropic-ai/sdk';
-import kb from '../knowledge-base.json' assert { type: 'json' };
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const kb = require('../knowledge-base.json');
 
 function buildSystemPrompt(kb) {
   const ag = kb.agence;
