@@ -55,7 +55,6 @@ ${cfg.regles.join('\n')}
 - Ne développe JAMAIS sauf si l'utilisateur dit explicitement "explique", "développe", "dis-m'en plus", "comment ça fonctionne" ou équivalent.
 - Pas de récapitulatif, pas d'introduction, pas de conclusion. Va droit au but.`;
 }
-}
 
 const SYSTEM_PROMPT = buildSystemPrompt(kb);
 
