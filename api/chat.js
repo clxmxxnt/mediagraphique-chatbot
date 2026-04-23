@@ -52,7 +52,7 @@ ${cfg.regles.join('\n')}`;
 const SYSTEM_PROMPT = buildSystemPrompt(kb);
 
 // ===== GROQ API CALL =====
-async function chatWithGroq(userMessage) {
+async function chatWithGroq(userMessage, history = []) {
   const apiKey = process.env.GROQ_API_KEY;
   
   // Vérification: Est-ce que la clé est configurée?
@@ -68,19 +68,20 @@ async function chatWithGroq(userMessage) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant', // Modèle puissant et gratuit de Groq
+      model: 'llama-3.3-70b-versatile', // Modèle puissant et gratuit de Groq
       messages: [
         {
           role: 'system',
           content: SYSTEM_PROMPT,
         },
+        ...history,
         {
           role: 'user',
           content: userMessage,
         },
       ],
-      max_tokens: 400,
-      temperature: 0.7,
+      max_tokens: 500,
+      temperature: 0.4,
     }),
   });
 
@@ -125,7 +126,7 @@ export default async function handler(req, res) {
 
   try {
     // Extraire le message du corps de la requête
-    const { message } = req.body;
+    const { message, history } = req.body;
 
     // Vérifier que le message existe et n'est pas vide
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
@@ -136,7 +137,8 @@ export default async function handler(req, res) {
     const sanitizedMessage = message.trim().slice(0, 500);
 
     // Appeler Groq pour obtenir une réponse
-    const reply = await chatWithGroq(sanitizedMessage);
+    const validHistory = Array.isArray(history) ? history.slice(-6) : [];
+    const reply = await chatWithGroq(sanitizedMessage, validHistory);
 
     // Retourner la réponse au chatbot
     return res.status(200).json({
