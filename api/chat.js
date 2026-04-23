@@ -10,7 +10,9 @@
  */
 
 import Anthropic from "@anthropic-ai/sdk";
-import kb from "../knowledge-base.json" assert { type: "json" };
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const kb = require('../knowledge-base.json');
 
 // ===== CONSTRUCTION DU SYSTEM PROMPT À PARTIR DE LA KNOWLEDGE BASE =====
 function buildSystemPrompt(kb) {
@@ -81,7 +83,7 @@ ${fo.catalogue.web_reseaux_sociaux.formations.map(f =>
 ).join("\n")}
 
 --- Formations Intelligence Artificielle ---
-${fo.catalogue.intelligence_artificielle.formations.map(f =>
+${fo.catalogue.ia.formations.map(f =>
   `• ${f.titre} : ${f.description} | Durée : ${f.duree || "variable"} | Public : ${f.public || "tous"}`
 ).join("\n")}
 
@@ -138,7 +140,7 @@ async function chatWithClaude(userMessage, history = []) {
   ];
 
   const response = await client.messages.create({
-    model: 'claude-3-5-haiku-20241022',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 500,
     system: SYSTEM_PROMPT,
     messages,
