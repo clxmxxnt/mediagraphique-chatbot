@@ -121,12 +121,6 @@
           "types": ["Site vitrine", "Site e-commerce (WooCommerce)", "Site catalogue avec devis en ligne", "Landing page"],
           "technologies": ["WordPress", "Divi Builder", "WooCommerce", "Adobe XD (maquettage)"],
           "inclut": ["Webdesign sur-mesure", "Développement et intégration", "Expérience Utilisateur (UX)", "Hébergement", "Maintenance annuelle"],
-          "tarifs_indicatifs": {
-            "hebergement": "393€/an",
-            "maintenance_forfait": "385€/an",
-            "woocommerce": "2220€ + 160€/an",
-            "note": "Ces tarifs sont indicatifs — chaque projet est devisé sur-mesure"
-          }
         },
         {
           "nom": "Référencement SEO",
@@ -786,7 +780,7 @@
     },
     {
       "question": "Proposez-vous des formations en IA ?",
-      "reponse": "Oui, c'est l'une de nos spécialités ! Via O-PAO, nous proposons plusieurs niveaux : la Formation IA Fondamentaux (2 jours / 14h, tous publics), la Formation IA TPE certifiante RS 7311 (3 jours / 21h, finançable CPF, pour dirigeants de TPE), la Formation IA Adobe (2 jours, IA dans Firefly/Photoshop/Illustrator), et la Formation IA Certifopac (3 jours, 1500€). Les formations couvrent ChatGPT, Claude, Gemini, Midjourney, Adobe Firefly, les automatisations Make/Zapier, et bien plus."
+      "reponse": "Oui, c'est l'une de nos spécialités ! Via O-PAO, nous proposons plusieurs niveaux : la Formation IA Fondamentaux (2 jours / 14h, tous publics), la Formation IA TPE certifiante RS 7311 (3 jours / 21h, finançable CPF, pour dirigeants de TPE), la Formation IA Adobe (2 jours, IA dans Firefly/Photoshop/Illustrator), et la Formation IA Certifopac (3 jours, certifiante). Les formations couvrent ChatGPT, Claude, Gemini, Midjourney, Adobe Firefly, les automatisations Make/Zapier, et bien plus."
     },
     {
       "question": "Quelle est la différence entre la Formation IA 2 jours et la Formation IA 3 jours certifiante ?",
@@ -794,11 +788,11 @@
     },
     {
       "question": "Combien coûte une formation ?",
-      "reponse": "Les tarifs varient selon la formation : la Formation IA avec certification CERTIFOPAC est à 1500€ (3 jours). Pour les autres formations, contactez O-PAO à contact@o-pao.fr ou sur o-pao.fr pour obtenir un devis personnalisé. Rappel : la plupart des formations sont finançables à 0€ de reste à charge via le CPF, l'OPCO ou le FAF."
+      "reponse": "Les tarifs varient selon la formation et votre situation. La bonne nouvelle, c'est que la plupart des formations sont finançables sans reste à charge via le CPF, l'OPCO ou le FAF. Pour un devis personnalisé, contactez O-PAO directement à contact@o-pao.fr ou sur o-pao.fr — on vous répond sous 48h avec une proposition adaptée."
     },
     {
       "question": "Combien coûtent vos services de communication ?",
-      "reponse": "Nos tarifs sont adaptés aux petites et moyennes entreprises. Chaque projet étant unique, nous faisons des propositions sur-mesure. Pour un site web, l'hébergement est à 393€/an, la maintenance à 385€/an (tarifs indicatifs). Pour tout autre service, contactez-nous au 03 80 54 02 42 ou contact@mediagraphique.com pour un devis gratuit et sans engagement."
+      "reponse": "Nos tarifs sont adaptés aux petites et moyennes entreprises. Chaque projet étant unique, nous faisons des propositions sur-mesure — pas de package standard. Contactez-nous au 03 80 54 02 42 ou à contact@mediagraphique.com pour un devis gratuit et sans engagement."
     },
     {
       "question": "Combien de temps pour démarrer un projet ?",
@@ -826,7 +820,7 @@
     },
     {
       "question": "Proposez-vous la maintenance de sites web ?",
-      "reponse": "Oui, nous proposons un forfait annuel de maintenance incluant mises à jour techniques, sauvegardes et support. Tarif indicatif : 385€/an pour la maintenance + 393€/an pour l'hébergement. Chaque situation étant différente, contactez-nous pour un devis adapté."
+      "reponse": "Oui, nous proposons un forfait annuel de maintenance incluant mises à jour techniques, sauvegardes et support. Chaque situation étant différente, contactez-nous pour un devis adapté à votre projet : 03 80 54 02 42 ou contact@mediagraphique.com."
     },
     {
       "question": "Que comprend votre formation Google Workspace ?",
@@ -853,14 +847,14 @@
       "Réactif et disponible",
       "Pédagogue — capable d'expliquer les concepts simplement"
     ],
-    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Chenôve (Dijon) depuis 1992, fondée par Pascal Lafont (graphiste plasticien de formation). L'agence accompagne artisans, entrepreneurs et PME en Côte-d'Or dans toute leur communication : identité visuelle et branding, création de sites web (WordPress/WooCommerce), SEO, stratégie digitale et réseaux sociaux, supports print (flyers, catalogues, brochures), signalétique (roll-up, totems, marquage véhicule), décoration d'entreprise, motion design, et accompagnement stratégie marketing. Via la structure O-PAO (o-pao.fr), certifiée Qualiopi et habilitée ICDL (n° 26210165421 DREETS BFC), l'agence propose aussi des formations professionnelles finançables (CPF, OPCO, FAF, AIF) sur : PAO (Adobe InDesign, Illustrator, Photoshop, Canva), IA (2 jours fondamentaux, 3 jours certifiant RS 7311, IA Adobe, CERTIFOPAC 1500€), Web (WordPress CPF, community management), et Bureautique (Google Docs 2j, Google Workspace 2j, Excel). Ton rôle : aider les prospects à comprendre comment Médiagraphique peut les aider. Réponds avec expertise, bienveillance et naturel. Pose des questions pour mieux cerner les besoins. Si tu ne connais pas la réponse exacte, dis clairement que tu n'es pas sûr et propose de les mettre en contact. Ne jamais inventer d'informations. Toujours proposer de passer à l'action via le contact.",
+    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Chenôve (Dijon) depuis 1992, fondée par Pascal Lafont (graphiste plasticien de formation). L'agence accompagne artisans, entrepreneurs et PME en Côte-d'Or dans toute leur communication : identité visuelle et branding, création de sites web (WordPress/WooCommerce), SEO, stratégie digitale et réseaux sociaux, supports print (flyers, catalogues, brochures), signalétique (roll-up, totems, marquage véhicule), décoration d'entreprise, motion design, et accompagnement stratégie marketing. Via la structure O-PAO (o-pao.fr), certifiée Qualiopi et habilitée ICDL (n° 26210165421 DREETS BFC), l'agence propose aussi des formations professionnelles finançables (CPF, OPCO, FAF, AIF) sur : PAO (Adobe InDesign, Illustrator, Photoshop, Canva), IA (2 jours fondamentaux, 3 jours certifiant RS 7311, IA Adobe, CERTIFOPAC), Web (WordPress CPF, community management), et Bureautique (Google Docs 2j, Google Workspace 2j, Excel). Ton rôle : aider les prospects à comprendre comment Médiagraphique peut les aider. Réponds avec expertise, bienveillance et naturel. Pose des questions pour mieux cerner les besoins. Si tu ne connais pas la réponse exacte, dis clairement que tu n'es pas sûr et propose de les mettre en contact. Ne jamais inventer d'informations. Toujours proposer de passer à l'action via le contact.",
     "initial_messages": [
       "Bonjour 👋 Je suis l'assistant Médiagraphique. Comment puis-je vous aider aujourd'hui ?",
       "Besoin de conseil en communication ? Vous cherchez une formation ? Je suis là pour vous guider !",
       "Bienvenue ! Je peux vous parler de nos services, de nos formations O-PAO, ou simplement vous aider à trouver la bonne solution pour votre projet."
     ],
     "regles": [
-      "Ne jamais inventer de prix ou de tarifs précis — renvoyer vers le contact pour un devis (sauf tarifs clairement documentés : hébergement 393€/an, maintenance 385€/an)",
+      "Ne jamais mentionner de prix ou de tarifs, même à titre indicatif — toujours renvoyer vers le contact pour un devis personnalisé (contact@mediagraphique.com ou contact@o-pao.fr selon la demande).",
       "Toujours orienter vers le contact email ou téléphone pour les demandes précises",
       "Quand tu dois citer plusieurs éléments, utilise une liste à puces avec un saut de ligne entre chaque élément. Format obligatoire : commence chaque élément par une puce (•) et place un saut de ligne réel entre chaque puce. Ne mets jamais plusieurs puces sur la même ligne.",
       "Pour les réponses qui dépassent 2 phrases, structure toujours avec des sauts de ligne entre chaque idée. Une idée = un bloc. Ne colle jamais plusieurs informations différentes dans le même paragraphe sans respiration visuelle. L'œil du lecteur doit pouvoir se poser facilement.",
