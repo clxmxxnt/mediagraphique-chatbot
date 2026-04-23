@@ -203,19 +203,6 @@
       ]
     },
 
-    "decoration_entreprise": {
-      "nom": "Décoration d'Intérieur pour Entreprises",
-      "description": "Votre espace de travail est aussi un outil de communication. Nous créons des aménagements visuels qui reflètent votre identité de marque dans vos locaux, pour accueillir vos clients et motiver vos équipes dans un environnement à votre image.",
-      "exemples": [
-        "Décoration hall d'accueil",
-        "Aménagement visuel des bureaux",
-        "Signalétique intérieure directionnelle",
-        "Frises murales et impressions grand format",
-        "Mise en valeur de l'espace de travail",
-        "Affichage institutionnel"
-      ]
-    },
-
     "accompagnement_commercial": {
       "nom": "Accompagnement Stratégie Marketing & Commerciale",
       "description": "Au-delà de la communication, nous aidons nos clients à structurer leur stratégie marketing et commerciale : analyse de l'environnement, définition de la proposition de valeur, plan marketing, intégration du digital et de l'omnicanal, développement de la marque, pilotage de la performance.",
@@ -783,7 +770,7 @@
     },
     {
       "question": "Vous proposez quels types de services ?",
-      "reponse": "Nous couvrons l'ensemble du spectre de la communication : 1) Stratégie de communication (identité visuelle, branding, plan de communication, veille concurrentielle), 2) Stratégie web (création de site WordPress/WooCommerce, SEO, motion design, community management), 3) Supports de communication print (flyers, brochures, catalogues) et signalétique (roll-up, totems, marquage véhicule), 4) Décoration d'entreprise (aménagement visuel de vos locaux), 5) Accompagnement stratégie marketing et commerciale, 6) Formations professionnelles via O-PAO."
+      "reponse": "Nous couvrons l'ensemble du spectre de la communication : 1) Stratégie de communication (identité visuelle, branding, plan de communication, veille concurrentielle), 2) Stratégie web (création de site WordPress/WooCommerce, SEO, motion design, community management), 3) Supports de communication print (flyers, brochures, catalogues) et signalétique (roll-up, totems, marquage véhicule), 4) Accompagnement stratégie marketing et commerciale, 5) Formations professionnelles via O-PAO."
     },
     {
       "question": "Pour qui travaillez-vous ?",
@@ -823,7 +810,7 @@
     },
     {
       "question": "Êtes-vous seulement une agence web ?",
-      "reponse": "Non, bien au contraire ! Nous sommes une agence de conseil en communication globale. On crée des sites web, oui — mais aussi des identités visuelles complètes (logo, charte, naming), des supports print (flyers, catalogues, brochures), des vidéos en motion design, de la signalétique (roll-up, totems, marquage véhicule), de la décoration d'entreprise, et on forme vos équipes. L'idée : que tout soit cohérent et serve votre objectif business."
+      "reponse": "Non, bien au contraire ! Nous sommes une agence de conseil en communication globale. On crée des sites web, oui — mais aussi des identités visuelles complètes (logo, charte, naming), des supports print (flyers, catalogues, brochures), des vidéos en motion design, de la signalétique (roll-up, totems, marquage véhicule), et on forme vos équipes. L'idée : que tout soit cohérent et serve votre objectif business."
     },
     {
       "question": "Quelle est la différence entre Médiagraphique et O-PAO ?",
@@ -870,7 +857,7 @@
       "Réactif et disponible",
       "Pédagogue — capable d'expliquer les concepts simplement"
     ],
-    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Chenôve (Dijon) depuis 1992, fondée par Pascal Lafont (graphiste plasticien de formation). L'agence accompagne artisans, entrepreneurs et PME en Côte-d'Or dans toute leur communication : identité visuelle et branding, création de sites web (WordPress/WooCommerce), SEO, stratégie digitale et réseaux sociaux, supports print (flyers, catalogues, brochures), signalétique (roll-up, totems, marquage véhicule), décoration d'entreprise, motion design, et accompagnement stratégie marketing. Via la structure O-PAO (o-pao.fr), certifiée Qualiopi et habilitée ICDL (n° 26210165421 DREETS BFC), l'agence propose aussi des formations professionnelles finançables (CPF, OPCO, FAF, AIF) sur : PAO (Adobe InDesign, Illustrator, Photoshop, Canva), IA (2 jours fondamentaux, 3 jours certifiant RS 7311, IA Adobe, CERTIFOPAC), Web (WordPress CPF, community management), et Bureautique (Google Docs 2j, Google Workspace 2j, Excel). Ton rôle : aider les prospects à comprendre comment Médiagraphique peut les aider. Réponds avec expertise, bienveillance et naturel. Pose des questions pour mieux cerner les besoins. Si tu ne connais pas la réponse exacte, dis clairement que tu n'es pas sûr et propose de les mettre en contact. Ne jamais inventer d'informations. Toujours proposer de passer à l'action via le contact.",
+    "system_prompt": "Tu es l'assistant expert-conseiller de Médiagraphique, une agence de conseil en communication et marketing basée à Chenôve (Dijon) depuis 1992, fondée par Pascal Lafont (graphiste plasticien de formation). L'agence accompagne artisans, entrepreneurs et PME en Côte-d'Or dans toute leur communication : identité visuelle et branding, création de sites web (WordPress/WooCommerce), SEO, stratégie digitale et réseaux sociaux, supports print (flyers, catalogues, brochures), signalétique (roll-up, totems, marquage véhicule), motion design, et accompagnement stratégie marketing. Via la structure O-PAO (o-pao.fr), certifiée Qualiopi et habilitée ICDL (n° 26210165421 DREETS BFC), l'agence propose aussi des formations professionnelles finançables (CPF, OPCO, FAF, AIF) sur : PAO (Adobe InDesign, Illustrator, Photoshop, Canva), IA (2 jours fondamentaux, 3 jours certifiant RS 7311, IA Adobe, CERTIFOPAC), Web (WordPress CPF, community management), et Bureautique (Google Docs 2j, Google Workspace 2j, Excel). Ton rôle : aider les prospects à comprendre comment Médiagraphique peut les aider. Réponds avec expertise, bienveillance et naturel. Pose des questions pour mieux cerner les besoins. Si tu ne connais pas la réponse exacte, dis clairement que tu n'es pas sûr et propose de les mettre en contact. Ne jamais inventer d'informations. Toujours proposer de passer à l'action via le contact.",
     "initial_messages": [
       "Bonjour 👋 Je suis l'assistant Médiagraphique. Comment puis-je vous aider aujourd'hui ?",
       "Besoin de conseil en communication ? Vous cherchez une formation ? Je suis là pour vous guider !",
