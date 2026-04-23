@@ -8,9 +8,8 @@
  * Utilise Groq API (GRATUIT, très rapide)
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const kb = require('../knowledge-base.json');
+import Anthropic from '@anthropic-ai/sdk';
+import kb from '../knowledge-base.json' assert { type: 'json' };
 
 function buildSystemPrompt(kb) {
   const ag = kb.agence;
@@ -58,55 +57,28 @@ ${cfg.regles.join('\n')}
 
 const SYSTEM_PROMPT = buildSystemPrompt(kb);
 
-// ===== GROQ API CALL =====
-async function chatWithGroq(userMessage, history = []) {
-  const apiKey = process.env.GROQ_API_KEY;
-  
-  // Vérification: Est-ce que la clé est configurée?
+// ===== CLAUDE API CALL =====
+async function chatWithClaude(userMessage, history = []) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    throw new Error('GROQ_API_KEY not configured in environment variables');
+    throw new Error('ANTHROPIC_API_KEY not configured in environment variables');
   }
 
-  // Appel à l'API Groq
-  const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile', // Modèle puissant et gratuit de Groq
-      messages: [
-        {
-          role: 'system',
-          content: SYSTEM_PROMPT,
-        },
-        ...history,
-        {
-          role: 'user',
-          content: userMessage,
-        },
-      ],
-      max_tokens: 150,
-      temperature: 0.4,
-    }),
+  const client = new Anthropic({ apiKey });
+
+  const messages = [
+    ...history,
+    { role: 'user', content: userMessage },
+  ];
+
+  const response = await client.messages.create({
+    model: 'claude-3-5-haiku-20241022',
+    max_tokens: 300,
+    system: SYSTEM_PROMPT,
+    messages,
   });
 
-  // Vérification: L'API a-t-elle répondu correctement?
-  if (!response.ok) {
-    const errorData = await response.json();
-    throw new Error(`Groq API error: ${response.status} - ${errorData.error?.message || response.statusText}`);
-  }
-
-  // Extraction de la réponse
-  const data = await response.json();
-  
-  // Vérification: Y a-t-il une réponse?
-  if (!data.choices || !data.choices[0] || !data.choices[0].message) {
-    throw new Error('No response from Groq API');
-  }
-
-  return data.choices[0].message.content;
+  return response.content[0].type === 'text' ? response.content[0].text : '';
 }
 
 // ===== ENDPOINT PRINCIPAL =====
@@ -145,7 +117,7 @@ export default async function handler(req, res) {
 
     // Appeler Groq pour obtenir une réponse
     const validHistory = Array.isArray(history) ? history.slice(-6) : [];
-    const reply = await chatWithGroq(sanitizedMessage, validHistory);
+    const reply = await chatWithClaude(sanitizedMessage, validHistory);
 
     // Retourner la réponse au chatbot
     return res.status(200).json({
