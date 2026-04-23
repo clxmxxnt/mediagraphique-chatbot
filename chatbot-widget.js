@@ -498,7 +498,7 @@
       if (sender === 'bot') {
         messageEl.innerHTML = `
           <img src="https://raw.githubusercontent.com/clxmxxnt/mediagraphique-chatbot/main/public/M mediagraphique noir.png" alt="Bot" class="message-bot-logo">
-          <div class="message-content">${escapeHtml(text)}</div>
+          <div class="message-content">${escapeHtml(text).replace(/\n/g, '<br>')}</div>
         `;
       } else {
         messageEl.innerHTML = `<div class="message-content">${escapeHtml(text)}</div>`;
